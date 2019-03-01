@@ -23,7 +23,7 @@ True business risks will be based on the what and how behind specific transforma
 
 - **Service disruption**: Business operations and customer experiences rely heavily on technical operations. Cloud transformations will create change in technical operations (TechOps). In some organizations, that change is small and easily adjusted. In other organizations, changes to TechOps could require retooling, reskilling, or new approaches to support. The bigger the change, the bigger the potential effect on Business Operations and Customer Experience. Managing this risk will require the involvement of the business in transformation planning. Release planning and First workload selection in the [Incremental Rationalization](../../digital-estate/rationalize.md#incremental-rationalization) article discuss ways to choose workloads for transformation projects. The business's role in that activity is to communicate the Business Operations risk of changing prioritized workloads. Helping IT choose workloads that have a lower impact on operations will reduce the overall risk.
 
-- **Budget control**: Cost models change in the Cloud. This change can create risks associated with cost overruns or increases in Cost of Goods Sold (COGS), especially directly attributed operational expenses. When business works closely with IT, it is feasible to create transparency regarding costs and services consumed by various business units, programs, projects, etc... [Cost Management](../cost-management/overview.md) provides examples of ways Business and IT can partner on this topic.
+- **Budget control**: Cost models change in the cloud. This change can create risks associated with cost overruns or increases in cost of goods sold (COGS), especially directly attributed operational expenses. When business works closely with IT, it is feasible to create transparency regarding costs and services consumed by various business units, programs, projects, etc... [Cost Management](../cost-management/overview.md) provides examples of ways business and IT can partner on this topic.
 
 The above are a few of the most common risks mentioned by customers. The Cloud Governance team and the cloud adoption teams can begin to develop a risk profile, as workloads are migrated and readied for production release. Be prepared for conversations to define, refine, and manage risks based on the desired business outcomes and transformation effort.
 
@@ -71,7 +71,7 @@ These basic questions will lead to many more. After exploring a healthy dialogue
 
 These questions over simplify the technical solutions needed to manage or remove risks. However, these questions communicate those solutions in ways the business can quickly integrate into a decision process.
 
-**Probability of Loss**: Questions to determine how likely it is that the risk will become a reality. This is the most difficult area to quantify. Instead it is suggested that the Cloud Governance team create categories for communicating probability, based on the supporting data. The following questions can help create categories that are meaningful to the team.
+**Probability of loss**: Questions to determine how likely it is that the risk will become a reality. This is the most difficult area to quantify. Instead it is suggested that the Cloud Governance team create categories for communicating probability, based on the supporting data. The following questions can help create categories that are meaningful to the team.
 
 - Has any research been done regarding the likelihood of this risk being realized?
 - Can the vendor provide references or statistics on the likelihood of impact?
@@ -82,13 +82,13 @@ These questions over simplify the technical solutions needed to manage or remove
 After answering these questions along with questions as determined by the Cloud Governance team, groupings of probability will likely emerge. The following are a few grouping samples to help get started:
 
 - No indication: Not enough research has been completed to determine probability.
-- Low Risk: Current research suggests the risk is not likely to be realized.
-- Future risk: The current probability is Low Risk. However, continued adoption would trigger a fresh analysis.
-- Medium Risk: It's likely that the risk will impact the business.
-- High Risk: Overtime, it is increasing less likely that the business will avoid impact from this risk.
-- Declining Risk: The risk is Medium to High. However, actions in IT or business are reducing the likelihood of an impact.
+- Low risk: Current research suggests the risk is not likely to be realized.
+- Future risk: The current probability is low risk. However, continued adoption would trigger a fresh analysis.
+- Medium risk: It's likely that the risk will impact the business.
+- High risk: Overtime, it is increasing less likely that the business will avoid impact from this risk.
+- Declining risk: The risk is medium to high. However, actions in IT or business are reducing the likelihood of an impact.
 
-**Determining Tolerance:**
+**Determining tolerance:**
 
 The three question sets above should fuel enough data to determine initial tolerances. When risk and probability are low, and risk remediation costs are high, the business is unlikely to invest in remediation. When risk and probability are high, the business is likely to consider an investment, as long as the costs don't exceed the potential risks.
 

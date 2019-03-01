@@ -13,7 +13,7 @@ author: BrianBlanchard
 
 # What is data classification?
 
-Data classification allows you to determine and assign value to your organization's data, and is a very common starting point for governance. The Data classification process categorizes data by sensitivity and business impact in order to identify risks. Once data is classified, it can be managed in ways that protect sensitive or important data from theft or loss.
+Data classification allows you to determine and assign value to your organization's data, and is a very common starting point for governance. The data classification process categorizes data by sensitivity and business impact in order to identify risks. Once data is classified, it can be managed in ways that protect sensitive or important data from theft or loss.
 
 ## Understand data risks, then manage them
 
@@ -25,11 +25,11 @@ Microsoft suggests that any asset which has been identified as a potential candi
 
 The following is a list of classifications Microsoft uses. Depending on your industry or existing security requirements, data classifications standards may already exist within your organization. If no standard exists, we welcome you to use this sample classification, to help you better understand your digital estate and risk profile.  
 
-* **Non-Business:** Data from your personal life that does not belong to Microsoft
+* **Non-business:** Data from your personal life that does not belong to Microsoft
 * **Public:** Business data that is freely available and approved for public consumption
 * **General:** Business data that is not meant for a public audience
 * **Confidential:** Business data that could cause harm to Microsoft if over-shared
-* **Highly Confidential:** Business data that would cause extensive harm to Microsoft if over-shared
+* **Highly confidential:** Business data that would cause extensive harm to Microsoft if over-shared
 
 ## Tagging data classification in Azure
 
