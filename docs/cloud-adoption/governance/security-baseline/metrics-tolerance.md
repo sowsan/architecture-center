@@ -20,8 +20,8 @@ Security Baseline generally focuses on identifying potential vulnerabilities in 
 Every organization has different security environments and requirements and different potential sources of security data. The following are examples of useful metrics that you should gather to help evaluate risk tolerance within the Security Baseline discipline:
 
 - **Data classification**. Number of cloud-stored data and services that are unclassified according to on your organization's privacy, compliance, or business impact standards.
-- **Number of sensitive data stores** - Number of storage end points or databases that contain sensitive data and should be protected.
-- **Number of unencrypted data stores** - Number of sensitive data stores that are not encrypted.
+- **Number of sensitive data stores**. Number of storage end points or databases that contain sensitive data and should be protected.
+- **Number of unencrypted data stores**. Number of sensitive data stores that are not encrypted.
 - **Attack surface**. How many total data sources, services, and applications will be cloud-hosted. What percentage of these data sources are classified as sensitive? What percentage of these applications and services are mission-critical?
 - **Covered Standards**. Number of security standards defined by the Security team.
 - **Covered Resources**. Deployed assets that are covered by security standards.
