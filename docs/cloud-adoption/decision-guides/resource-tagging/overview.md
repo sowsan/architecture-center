@@ -1,5 +1,5 @@
 ---
-title: "CAF: Resource organization and tagging decision guide" 
+title: "CAF: Resource naming and tagging decision guide" 
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 ms.service: architecture-center
 ms.subservice: enterprise-cloud-adoption
@@ -9,7 +9,7 @@ description: Learn about resource organization and tagging as a core service in 
 author: rotycenh
 ---
 
-# Resource organization and tagging decision guide
+# Resource naming and tagging decision guide
 
 Organizing cloud-based resources is one of the most important tasks for IT, unless you have very simple deployments. Organizing your resources serves three primary purposes:
 

@@ -13,8 +13,6 @@ author: rotycenh
 
 Encrypting data protects it against unauthorized access. Properly implemented encryption policy provides additional layers of security for your cloud-based workloads and guards against attackers and other unauthorized users from both inside and outside your organization and networks.
 
-![Plotting encryption options from least to most complex, aligned with jump links below](../../_images/discovery-guides/discovery-guide-encryption.png)
-
 Jump to: [Key management](#key-management) | [Data encryption](#data-encryption) | [Learn more](#learn-more)
 
 Cloud encryption strategy focuses on corporate policy and compliance mandates. Encrypting resources is generally desirable, and in Azure many services such as Azure Storage and Azure SQL Database enable encryption by default. However, encryption does have costs that can increase latency and overall resource usage.
