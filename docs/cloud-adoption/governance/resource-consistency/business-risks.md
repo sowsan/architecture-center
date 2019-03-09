@@ -21,7 +21,7 @@ When it comes to deploying resources and workloads, the cloud offers increased a
 
 Resource Consistency is crucial to ensure that resources are deployed, updated, and configured consistently and repeatably, and that service disruptions are minimized and remedied in as little time as possible.
 
-The Resource Consistency discipline is concerned with identifying and mitigating business risks related to the operational aspects of your cloud deployment. Resource Consistency includes monitoring of applications, workloads, and asset performance. It also includes the tasks required to meet scale demands, remediate performance Service Level Agreement (SLA) violations, and proactively avoid performance SLA violations through automated remediation.
+The Resource Consistency discipline is concerned with identifying and mitigating business risks related to the operational aspects of your cloud deployment. Resource Consistency includes monitoring of applications, workloads, and asset performance. It also includes the tasks required to meet scale demands, provide disaster recovery capabilities, mitigate performance Service Level Agreement (SLA) violations, and proactively avoid those SLA violations through automated remediation.
 
 Initial test deployments may not require much beyond adopting some cursory naming and tagging standards to support your Resource Consistency needs. As your cloud adoption matures and you deploy more complicated and mission-critical assets, the need to invest in the Resource Consistency discipline increases rapidly.
 

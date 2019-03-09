@@ -15,25 +15,27 @@ author: BrianBlanchard
 
 The following is a list of Azure tools that can help mature the policies and processes that support this governance discipline.
 
-|    | [Azure portal](https://azure.microsoft.com/features/azure-portal/)  | [Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Azure Automation](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) |
-|---------|---------|---------|---------|---------|---------|
-| Deploy resources                             | Yes | Yes | Yes | Yes | No  |
-| Manage resources                             | Yes | Yes | Yes | Yes | No  |
-| Deploy resources using templates             | No  | Yes | No  | Yes | No  |
-| Orchestrated environment deployment          | No  | No  | Yes | No  | No  |
-| Define resource groups                       | Yes | Yes | Yes | No  | No  |
-| Manage workload and account owners           | Yes | Yes | Yes | No  | No  |
-| Manage conditional access to resources       | Yes | Yes | Yes | No  | No  |
-| Configure RBAC users                         | Yes | No  | No  | No  | Yes |
-| Assign roles and permissions to resources | Yes | Yes | Yes | No  | Yes |
-| Define dependencies between resources        | No  | Yes | Yes | No  | No  |
-| Apply access control                         | Yes | Yes | Yes | No  | Yes |
-| Assess availability and scalability          | No  | No  | No  | Yes | No  |
-| Apply tags to resources                      | Yes | Yes | Yes | No  | No  |
-| Assign Azure Policy rules                    | Yes | Yes | Yes | No  | No  |
-| Plan resources for disaster recovery         | Yes | Yes | Yes | No  | No  |
-| Apply automated remediation                  | No  | No  | No  | Yes | No  |
-| Manage billing                               | Yes | No  | No  | No  | No  |
+|    | [Azure portal](https://azure.microsoft.com/features/azure-portal/)  | [Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Azure Automation](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| Deploy resources                             | Yes | Yes | Yes | Yes | No  | No | No |
+| Manage resources                             | Yes | Yes | Yes | Yes | No  | No | No |
+| Deploy resources using templates             | No  | Yes | No  | Yes | No  | No | No |
+| Orchestrated environment deployment          | No  | No  | Yes | No  | No  | No | No |
+| Define resource groups                       | Yes | Yes | Yes | No  | No  | No | No |
+| Manage workload and account owners           | Yes | Yes | Yes | No  | No  | No | No |
+| Manage conditional access to resources       | Yes | Yes | Yes | No  | No  | No | No |
+| Configure RBAC users                         | Yes | No  | No  | No  | Yes | No | No |
+| Assign roles and permissions to resources | Yes | Yes | Yes | No  | Yes | No | No |
+| Define dependencies between resources        | No  | Yes | Yes | No  | No  | No | No |
+| Apply access control                         | Yes | Yes | Yes | No  | Yes | No | No |
+| Assess availability and scalability          | No  | No  | No  | Yes | No  | No | No |
+| Apply tags to resources                      | Yes | Yes | Yes | No  | No  | No | No |
+| Assign Azure Policy rules                    | Yes | Yes | Yes | No  | No  | No | No |
+| Apply automated remediation                  | No  | No  | No  | Yes | No  | No | No |
+| Manage billing                               | Yes | No  | No  | No  | No  | No | No |
+| Plan resources for disaster recovery         | Yes | Yes | Yes | No  | No  | Yes | Yes |
+|Recover data during an outage or SLA violation     | No | No  | No  | No  | No  | Yes | Yes |
+|Recover applications and data during an outage or SLA violation     | No | No  | No  | No  | No  | Yes | Yes |
 
 Along with these Resource Consistency tools and features, you will need to monitor your deployed resources for performance and health issues. [Azure Monitor](/azure/azure-monitor/overview) is the default monitoring and reporting solution in Azure. Azure Monitor provides a number of individual features that you can use to monitor your cloud resources, and the following list shows which feature allows you to address common monitoring requirements.
 
