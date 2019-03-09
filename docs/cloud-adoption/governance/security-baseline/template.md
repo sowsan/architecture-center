@@ -11,7 +11,7 @@ author: BrianBlanchard
 
 # Security Baseline template
 
-The first step to implementing change is communicating the desired change. The same is true when changing governance practices. The generic template below provides a starting point for documenting and communicating policy statements that govern Security Baseline in the cloud.
+The first step to implementing change is communicating the desired change. The same is true when changing governance practices. The generic template below provides a starting point for documenting and communicating policy statements that govern security related issues in the cloud.
 
 As your discussions progress, use this template's structure as a model for capturing the business risks, risk tolerances, compliance processes, and tooling needed to define your organization's Security Baseline policy statements.
 
