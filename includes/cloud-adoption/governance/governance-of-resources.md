@@ -1,21 +1,43 @@
 <!-- TEMPLATE FILE - DO NOT ADD METADATA -->
 <!-- markdownlint-disable MD002 MD041 -->
+> [!NOTE]
+>One key advantage of Management Groups is that you can quickly reorganize your hierarchy and subscription group membership to support changes in your organization's structure or business requirements. However, keep in mind that Azure Policies and RBAC assignments applied to a management group are inherited by any children subscriptions underneath that group in the hierarchy. Ensure that when you are reorganizing the group hierarchy or moving subscriptions between groups that you are not introducing unintended policy and RBAC changes. See the [Azure Management Groups documentation](/azure/governance/management-groups/) for more information.
 
 ### Governance of resources
 
-Enforcing governance across subscriptions will come from Azure Blueprints and the associated assets within the blueprint.
+A set of global Azure Policies and RBAC assignments will provide a baseline level of governance enforcement. 
 
-1. Create a blueprint named `governance-baseline`.
-    1. Enforce the use of standard Azure roles.
-    2. Enforce that users can only authenticate against existing an RBAC implementation.
-    3. Apply this blueprint to all subscriptions within the management group.
-2. Create an Azure policy to apply or enforce the following:
-    1. Resource tagging should require values for Business Function, Data Classification, Criticality, SLA, Environment, and  Application.
-    2. The value of the Application tag should match the name of the resource group.
-    3. Validate role assignments for each resource group and resource.
-3. Publish and apply the `governance-baseline` blueprint to each management group.
+Azure provides several built-in policies and role assignments that you can assign to any management group, subscription, or resource group. However, to meet the Cloud Governance team's policy requirements, implementation of the governance MVP requires custom Azure Polices.
 
-These patterns enable resources to be discovered and tracked, and enforce basic role management.
+#### Create custom policies
+
+Custom policy definitions are saved to either a management group or a subscription and are inherited through the management group hierarchy. If a policy definition's save location is a management group, that custom policy is available to assign to any child management group or subscription.
+
+Since the policies required to support the governance MVP are meant to apply to all current or planned subscriptions, the following custom policy definitions should be created at the root of the management hierarchy:
+
+- Restrict the list of roles available for RBAC assignment to a set of built-in roles authorized by your Cloud Governance team.
+- Require the use of the following tags on all resources: Department/Billing Unit, Geography, Data Classification, Criticality, SLA, Environment, Application Archetype, Application, and Application Owner.
+- Require that the Application tag for resources should match the name of the relevant Resource Group.
+
+For information on defining custom policies see the [Azure Policy documentation](/azure/governance/policy/tutorials/create-custom-policy-definition). For guidance and examples of custom policies, consult the [Azure Policy samples site](/azure/governance/policy/samples/) and the associated [GitHub repository](https://github.com/Azure/azure-policy).
+
+#### Assign Azure Policy and RBAC roles using Azure Blueprints
+
+Although the policy requirements defined in this governance MVP apply to all current subscriptions, it's very likely that future deployments will require exceptions or alternative policies. As a result, assigning policy using management groups, with all child subscriptions inheriting these assignments, may not be flexible enough to support these scenarios. 
+
+Azure Blueprints allow the consistent assignment of policy and roles, application of Resource Manager templates, and deployment of Resource Groups across multiple subscriptions. As with policy definitions, blueprint definitions are saved to management groups or subscriptions, and are available through inheritance to any children in the management group hierarchy.
+
+The Cloud Governance team has decided that enforcement of required Azure Policy and RBAC assignments across subscriptions will be implemented through Azure Blueprints and associated artefacts:
+
+1. In the root management group, create a blueprint named `governance-baseline`.
+2. Add the following artifacts to the blueprint:
+    1. Policy assignments for the custom Azure Policy definitions defined at the management group root.
+    2. Resource Group definitions for any groups required for all subscriptions by Governance MVP.
+    3. Standard subscription and resource group RBAC assignments.
+3. Publish the blueprint.
+4. Assign the `governance-baseline` blueprint to all subscriptions.
+
+See the [Azure Blueprints documentation](/azure/governance/blueprints/overview) for more information on creating and using blueprints.
 
 ### Demilitarized Zone (DMZ)
 
