@@ -7,7 +7,11 @@
 
 A set of global Azure Policies and RBAC assignments will provide a baseline level of governance enforcement. 
 
-Azure provides several built-in policies and role assignments that you can assign to any management group, subscription, or resource group. However, to meet the Cloud Governance team's policy requirements, implementation of the governance MVP requires the creation of custom Azure Polices, and the assignment of those policies to all subscriptions.
+Azure provides several built-in policies and role assignments that you can assign to any management group, subscription, or resource group. However, to meet the Cloud Governance team's policy requirements, implementation of the governance MVP requires completing the following tasks:
+
+1. Define required custom Azure Polices at the root of the Management Group hierarchy.
+2. Create an Azure Blueprint definition using these custom policies and RBAC settings required by the governance MVP.
+3. Apply policies and configuration globally by assigning the Blueprint to all subscriptions.
 
 #### Create custom policies
 
@@ -15,9 +19,9 @@ Custom policy definitions are saved to either a management group or a subscripti
 
 Since the policies required to support the governance MVP are meant to apply to all current subscriptions, the following custom policy definitions will be created in the root management group:
 
-- Restrict the list available RBAC assignments to a set of built-in Azure roles authorized by your Cloud Governance team.
-- Require the use of the following tags on all resources: Department/Billing Unit, Geography, Data Classification, Criticality, SLA, Environment, Application Archetype, Application, and Application Owner.
-- Require that the Application tag for resources should match the name of the relevant Resource Group.
+1. Restrict the list available RBAC assignments to a set of built-in Azure roles authorized by your Cloud Governance team.
+2. Require the use of the following tags on all resources: Department/Billing Unit, Geography, Data Classification, Criticality, SLA, Environment, Application Archetype, Application, and Application Owner.
+3. Require that the Application tag for resources should match the name of the relevant Resource Group.
 
 For information on defining custom policies see the [Azure Policy documentation](/azure/governance/policy/tutorials/create-custom-policy-definition). For guidance and examples of custom policies, consult the [Azure Policy samples site](/azure/governance/policy/samples/) and the associated [GitHub repository](https://github.com/Azure/azure-policy).
 
