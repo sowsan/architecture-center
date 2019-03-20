@@ -777,6 +777,10 @@
               href: cloud-adoption/governance/deployment-acceleration/discipline-improvement.md
             - name: Azure-specific toolchain
               href: cloud-adoption/governance/deployment-acceleration/toolchain.md
+    - name: Azure Best Practices
+      items:
+        -name: Designing resilient applications for Azure
+         href: /azure/architecture/resiliency/index
   - name: Infrastructure
     items:
     - name: Virtual Machines
