@@ -22,7 +22,7 @@ This article outlines some potential tasks your company can engage in to better 
 It's impossible for any one document to account for the requirements of all businesses. As such, this article outlines suggested minimum and potential example activities for each phase of the governance maturation process. The initial objective of these activities is to help you build a [Policy MVP](../journeys/overview.md#an-incremental-approach-to-cloud-governance) and establish a framework for incremental policy evolution. Your Cloud Governance team will need to decide how much to invest in these activities to improve your Resource Consistency governance capabilities.
 
 > [!CAUTION]
-> Neither the minimum or potential activities outlined in this article are aligned to specific corporate policies or third party compliance requirements. This guidance is designed to help facilitate the conversations that will lead to alignment of both requirements with a cloud governance model.
+> Neither the minimum or potential activities outlined in this article are aligned to specific corporate policies or third-party compliance requirements. This guidance is designed to help facilitate the conversations that will lead to alignment of both requirements with a cloud governance model.
 
 ## Planning and readiness
 
@@ -42,16 +42,16 @@ This phase of governance maturity bridges the divide between business outcomes a
 * Work with the business stakeholders and/or your cloud strategy team to understand the desired cloud accounting approach and cost accounting practices within your business units and organization as a whole.
 * Define your [monitoring and policy enforcement](compliance-processes.md) requirements.
 * Examine the business value and cost of outage to define remediation policy and SLA requirements.
-* Determine whether you'll deploy a [simple workload](./governance-simple-workload.md) or [multi-team](./governance-multiple-teams.md) governance strategy for your resources.
+* Determine whether you'll deploy a [simple workload](./governance-simple-workload.md) or [multiple team](./governance-multiple-teams.md) governance strategy for your resources.
 * Determine scalability requirements for your planned workloads.
 
-## Build and pre-deployment
+## Build and predeployment
 
 A number of technical and nontechnical prerequisites are required to successful migrate an environment. This process focuses on the decisions, readiness, and core infrastructure that proceeds a migration.
 
 **Minimum suggested activities:**
 
-* Implement your [Resource Consistency toolchain](toolchain.md) by rolling out in a pre-deployment phase.
+* Implement your [Resource Consistency toolchain](toolchain.md) by rolling out in a predeployment phase.
 * Update the Architecture Guidelines document and distribute to key stakeholders.
 * Implement resource deployment tasks on your prioritized migration backlog.
 * Develop educational materials and documentation, awareness communications, incentives, and other programs to help drive user adoption.
@@ -75,7 +75,7 @@ Migration is an incremental process that focuses on the movement, testing, and a
 
 **Minimum suggested activities:**
 
-* Migrate your [Resource Consistency toolchain](toolchain.md) from pre-deployment to production.
+* Migrate your [Resource Consistency toolchain](toolchain.md) from predeployment to production.
 * Update the Architecture Guidelines document and distribute to key stakeholders.
 * Develop educational materials and documentation, awareness communications, incentives, and other programs to help drive user adoption.
 * Migrate any existing automated remediation scripts or tools to support defined SLA requirements.

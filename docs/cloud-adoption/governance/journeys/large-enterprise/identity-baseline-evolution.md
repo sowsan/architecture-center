@@ -48,7 +48,7 @@ The changes to current and future state expose new risks that will require new p
 This business risk can be expanded into a few technical risks:
 
 - Legacy authentication might not be available in the cloud, limiting deployment of some applications.
-- The current third-party MFA solution might not be available in the cloud, limiting deployment of some applications.
+- The current third-party multi-factor authentication solution might not be available in the cloud, limiting deployment of some applications.
 - Retooling or moving either could create outages and add costs.
 - The speed and stability of the VPN might impede migration.
 - Traffic coming into the cloud could cause security issues in other parts of the global network.
@@ -58,7 +58,7 @@ This business risk can be expanded into a few technical risks:
 The following changes to policy will help remediate the new risks and guide implementation.
 
 1. The chosen cloud provider must offer a means of authenticating via legacy methods.
-2. The chosen cloud provider must offer a means of authentication with the current third-party MFA solution.
+2. The chosen cloud provider must offer a means of authentication with the current third-party multi-factor authentication solution.
 3. A high-speed private connection should be established between the cloud provider and the company’s telco provider, connecting the cloud provider to the global network of datacenters.
 4. Until sufficient security requirements are established, no inbound public traffic may access company assets hosted in the cloud. All ports are blocked from any source outside of the global WAN.
 
@@ -77,8 +77,8 @@ Here are the new best practices:
     1. Create a blueprint named `active-directory-virtual-machines`.
     1. Add each of the AD templates and policies to the blueprint.
     1. Publish the blueprint to any applicable management group.
-    1. Apply the blueprint to any subscription requiring legacy or third-party MFA authentication.
-    1. The instance of AD running in Azure can now be used as an extension of the on-premises AD solution, allowing it to integrate with the existing MFA tool and provide claims-based authentication, both through existing Active Directory functionality.
+    1. Apply the blueprint to any subscription requiring legacy or third-party multi-factor authentication.
+    1. The instance of AD running in Azure can now be used as an extension of the on-premises AD solution, allowing it to integrate with the existing multi-factor authentication tool and provide claims-based authentication, both through existing Active Directory functionality.
 
 ## Conclusion
 

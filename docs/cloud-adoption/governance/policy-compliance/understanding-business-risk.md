@@ -28,7 +28,7 @@ During a transformation, the same relative risks can be seen.
 - As more workloads come online, risks change at each release. New apps go live, risks change.
 - When a company brings the first 10-20 applications online, the risk profile is much different that it is when the 1000th applications go into production in the cloud.
 
-The assets that accumulated in the traditional, on-premises estate likely accumulated overtime. The maturity of the business and IT teams was likely growing in a similar fashion. That parallel growth can tend to create some unnecessary policy baggage.
+The assets that accumulated in the traditional, on-premises estate likely accumulated over time. The maturity of the business and IT teams was likely growing in a similar fashion. That parallel growth can tend to create some unnecessary policy baggage.
 
 During a cloud transformation, both the business and IT teams have an opportunity to reset those policies and build new with a matured mindset.
 
@@ -65,8 +65,7 @@ Each asset staged can easily be classified according to risk. Data classificatio
 
 With each iteration, the Cloud Governance team can work with the Cloud Strategy team to quickly communicate new risks, mitigation strategies, tradeoffs, and potential costs. This empowers business participants and IT leaders to partner in mature, well-informed decisions. Those decisions then inform policy maturity. When required, the policy changes produce new work items for the maturity of core infrastructure systems. When changes to staged systems are required, the cloud adoption teams have ample time to make changes, while the business tests the staged systems and develops a user adoption plan.
 
-This approach minimizes risks, while empowering the team to move quickly. It also ensures that risks are promptly addressed and resolved prior to deployment.
-
+This approach minimizes risks, while empowering the team to move quickly. It also ensures that risks are promptly addressed and resolved before deployment.
 
 ## Next steps
 

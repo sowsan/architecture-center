@@ -35,13 +35,13 @@ Before defining triggers for policy compliance remediation, you need establish t
 
 ### Assign Cloud Governance team members
 
-Your cloud governance team will provide ongoing guidance on policy compliance and handle policy-related issues that emerge when deploying and operating your cloud assets. When building this team, invite staff from your organization that have expertise in areas covered by your defined policy statements and identified risks.
+Your Cloud Governance team will provide ongoing guidance on policy compliance and handle policy-related issues that emerge when deploying and operating your cloud assets. When building this team, invite staff from your organization that have expertise in areas covered by your defined policy statements and identified risks.
 
 For initial test deployments this can be limited to a few system administrators responsible for establishing the basics of governance. As your governance processes mature, review the cloud guidance team's membership regularly to ensure that you can properly address new potential risks and policy requirements. Identify members of your IT and business staff with relevant experience or interest in specific areas of governance and include them in your teams on a permanent or ad-hoc basis as-needed.
 
 ### Reviews and policy iteration
 
-As additional resources and workloads are deployed, the cloud governance team will need to ensure that new workloads or assets comply with policy requirements. Evaluate new requirements from workload development teams to ensure their planned deployments will align with your design guides, and update your policies to support these requirements when appropriate.
+As additional resources and workloads are deployed, the Cloud Governance team will need to ensure that new workloads or assets comply with policy requirements. Evaluate new requirements from workload development teams to ensure their planned deployments will align with your design guides, and update your policies to support these requirements when appropriate.
 
 Plan to evaluate new potential risks and update policy statements and design guides as needed. Work with IT staff and workload teams to evaluate new Azure features and services on an ongoing basis. Also schedule regular review cycles each of the five governance disciplines to ensure policy is up-to-date and being met.
 
@@ -68,7 +68,7 @@ For each of your policy statements, review requirements to determine what consti
 
 ### Define actions
 
-Each violation trigger should have a corresponding action. Triggered actions should always notify an appropriate IT staff or Cloud Governance team member when a violation occurs. This notification can lead to a manual review of the compliance issue or kickoff a pre-established remediation process depending on the type and severity of the detected violation.
+Each violation trigger should have a corresponding action. Triggered actions should always notify an appropriate IT staff or Cloud Governance team member when a violation occurs. This notification can lead to a manual review of the compliance issue or kickoff a predefined remediation process depending on the type and severity of the detected violation.
 
 Some examples of violation triggers and actions:
 

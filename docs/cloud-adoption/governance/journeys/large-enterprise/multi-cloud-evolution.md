@@ -1,15 +1,15 @@
 ---
-title: "CAF: Large enterprise – Multi-cloud evolution"
+title: "CAF: Large enterprise: Multicloud evolution"
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 ms.service: architecture-center
 ms.subservice: enterprise-cloud-adoption
 ms.custom: governance
 ms.date: 02/11/2019
-description: Large enterprise – Multi-cloud evolution
+description: "Large enterprise: Multicloud evolution"
 author: BrianBlanchard
 ---
 
-# Large enterprise: Multi-cloud evolution
+# Large enterprise: Multicloud evolution
 
 ## Evolution of the narrative
 
@@ -61,19 +61,19 @@ This section of the article will evolve the governance MVP design to include new
     1. For applications that authenticate using OAuth 2, users in the Active Directory in the secondary cloud could simply be replicated to the existing Azure AD tenant.
     2. On the other extreme, federation between the two on-premises identity providers, would allow users from the new Active Directory domains to be replicated to Azure.
 3. Add assets to Azure Site Recovery
-    1. Azure Site Recovery was built as a hybrid/multi-cloud tool from the beginning.
+    1. Azure Site Recovery was built as a hybrid and multicloud tool from the beginning.
     2. Virtual machines in the secondary cloud might be able to be protected by the same Azure Site Recovery processes used to protect on-premises assets.
 4. Add assets to Azure Cost Management
-    1. Azure Cost Management was built as a multi-cloud tool from the beginning.
+    1. Azure Cost Management was built as a multicloud tool from the beginning.
     2. Virtual machines in the secondary cloud might be compatible with Azure Cost Management for some cloud providers. Additional costs may apply.
 5. Add assets to Azure Monitor
     1. Azure Monitor was built as a hybrid cloud tool from the beginning.
     2. Virtual machines in the secondary cloud might be compatible with Azure Monitor agents, allowing them to be included in Azure Monitor for operational monitoring.
 6. Governance enforcement tools
     1. Governance enforcement is cloud-specific.
-    2. The corporate policies established in the governance journey are not. While the implementation may vary from cloud to cloud, the policy statements can be applied to the secondary provider.
+    2. The corporate policies established in the governance journey are not cloud-specific. While the implementation may vary from cloud to cloud, the policy statements can be applied to the secondary provider.
 
-As multi-cloud adoption grows, the design evolution above will continue to mature.
+As multicloud adoption grows, the design evolution above will continue to mature.
 
 ## Next steps
 

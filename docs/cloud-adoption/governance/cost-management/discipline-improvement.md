@@ -22,7 +22,7 @@ This article outlines potential tasks your company perform to develop and mature
 No single document can account for the requirements of all businesses. As such, this article outlines suggested minimum and potential example activities for each phase of the governance maturation process. The initial objective of these activities is to help you build a [Policy MVP](../journeys/overview.md#an-incremental-approach-to-cloud-governance) and establish a framework for incremental policy evolution. Your Cloud Governance team will need to decide how much to invest in these activities to improve your Cost Management governance capabilities.
 
 > [!CAUTION]
-> Neither the minimum or potential activities outlined in this article are aligned to specific corporate policies or third party compliance requirements. This guidance is designed to help facilitate the conversations that will lead to alignment of both requirements with a cloud governance model.
+> Neither the minimum or potential activities outlined in this article are aligned to specific corporate policies or third-party compliance requirements. This guidance is designed to help facilitate the conversations that will lead to alignment of both requirements with a cloud governance model.
 
 ## Planning and readiness
 
@@ -44,13 +44,13 @@ This phase of governance maturity bridges the divide between business outcomes a
 * Align business goals with planned budgets and adjust budgetary plans as necessary.
 * Develop a goals and budget reporting mechanism to notify technical and business stakeholders at the end of each cost cycle.
 
-## Build and pre-deployment
+## Build and predeployment
 
 A number of technical and nontechnical prerequisites are required to successfully migrate an environment. This process focuses on the decisions, readiness, and core infrastructure that proceeds a migration.
 
 **Minimum suggested activities:**
 
-* Implement your [Cost Management toolchain](toolchain.md) by rolling out in a pre-deployment phase.
+* Implement your [Cost Management toolchain](toolchain.md) by rolling out in a predeployment phase.
 * Update the Architecture Guidelines document and distribute to key stakeholders.
 * Develop educational materials and documentation, awareness communications, incentives, and other programs to help drive user adoption.
 * Determine if your purchase requirements align with your budgets and goals.
@@ -67,7 +67,7 @@ Migration is an incremental process that focuses on the movement, testing, and a
 
 **Minimum suggested activities:**
 
-* Migrate your [Cost Management toolchain](toolchain.md) from pre-deployment to production.
+* Migrate your [Cost Management toolchain](toolchain.md) from predeployment to production.
 * Update the Architecture Guidelines document and distribute to key stakeholders.
 * Develop educational materials and documentation, awareness communications, incentives, and other programs to help drive user adoption.
 

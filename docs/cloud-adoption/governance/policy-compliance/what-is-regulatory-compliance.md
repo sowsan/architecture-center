@@ -11,7 +11,7 @@ author: BrianBlanchard
 
 # Introduction to regulatory compliance
 
-This is an introductory article about regulatory compliance, therefore it's not intended for implementing a compliance strategy. It is for general awareness only. More detailed information about [Azure compliance offerings](https://aka.ms/allcompliance) is available at the [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/default.aspx). Moreover, all downloadable documentation is available to Azure customers under a nondisclosure agreement from the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/).
+This is an introductory article about regulatory compliance, therefore it's not intended for implementing a compliance strategy. It is for general awareness only. More detailed information about [Azure compliance offerings](https://aka.ms/allcompliance) is available at the [Microsoft Trust Center](/trustcenter). Moreover, all downloadable documentation is available to Azure customers under a nondisclosure agreement from the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/).
 
 Regulatory compliance refers to the discipline and process of ensuring that a company follows the laws enforced by governing bodies in their geography or rules required by voluntarily adopted industry standards. For IT regulatory compliance, people and/or processes monitor corporate systems in an effort to detect and prevent violations of policies and procedures established by these governing laws, regulations, and standards. This in turn applies to a very wide area of monitoring and enforcement processes. Depending on the industry and geography, these processes can become quite lengthy and complex.
 

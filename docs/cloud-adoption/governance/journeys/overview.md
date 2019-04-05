@@ -106,7 +106,7 @@ The journeys demonstrate how to implement a governance MVP. From there, each jou
 To begin a governance journey, choose one of the two options below. The options are based on synthesized customer experiences. The titles are based on the size of the enterprise for ease of navigation. However, the reader's decision may be more complex. The following tables outline the differences between the two options.
 
 > [!WARNING]
-> A more robust governance starting point may be required. In such cases, please consider the [Azure Virtual Datacenter](#azure-virtual-datacenter) approach briefly described [below](#azure-virtual-datacenter). This approach is commonly suggested during enterprise-scale adoption efforts, and especially for efforts which exceed 10,000 assets. It is also the de facto choice for complex governance scenarios when any of the following are required: extensive 3rd party compliance requirements, deep domain expertise, or parity with mature IT governance policies and compliance requirements.
+> A more robust governance starting point may be required. In such cases, please consider the [Azure Virtual Datacenter](#azure-virtual-datacenter) approach briefly described [below](#azure-virtual-datacenter). This approach is commonly suggested during enterprise-scale adoption efforts, and especially for efforts which exceed 10,000 assets. It is also the de facto choice for complex governance scenarios when any of the following are required: extensive third-party compliance requirements, deep domain expertise, or parity with mature IT governance policies and compliance requirements.
 
 > [!NOTE]
 > It’s unlikely that either journey aligns completely to your situation. Choose whichever journey is closest and use it as a starting point. Throughout the journey, additional information is provided to help you customize decisions to meet specific criteria.
@@ -126,7 +126,7 @@ To begin a governance journey, choose one of the two options below. The options 
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Datacenter or third-party hosting providers | Fewer than five datacenters                                                                                  | More than five datacenters                                                                                                   |
 | Networking                                  | No WAN, or 1 &ndash; 2 WAN providers                                                                             | Complex network or global WAN                                                                                             |
-| Identity                                    | Single forest, single domain. No requirement for claims-based authentication or third-party MFA devices. | Complex, multiple forests, multiple domains. Applications require claims-based authentication or third-party MFA devices. |
+| Identity                                    | Single forest, single domain. No requirement for claims-based authentication or third-party multi-factor authentication devices. | Complex, multiple forests, multiple domains. Applications require claims-based authentication or third-party multi-factor authentication devices. |
 
 ### Desired future state after evolving cloud governance
 
@@ -140,27 +140,25 @@ These two journeys represent two extremes of experience for customers who invest
 
 ## Azure Virtual Datacenter
 
-Azure Virtual Datacenter is an approach to making the most of the Azure cloud platform's capabilities while respecting an enterprise's security and governance requirements. 
+Azure Virtual Datacenter is an approach to making the most of the Azure cloud platform's capabilities while respecting an enterprise's security and governance requirements.
 
-Compared to traditional on-premises environments, Azure allows workload development teams and their business sponsors to take advantage of the increased deployment agility that cloud platforms offer. However, as your cloud adoption efforts expand to include mission critical data and workloads, this agility may conflict with corporate security and policy compliance requirements established by your IT teams. This is especially true for large enterprises that have existing sophisticated governance and regulatory requirements. 
+Compared to traditional on-premises environments, Azure allows workload development teams and their business sponsors to take advantage of the increased deployment agility that cloud platforms offer. However, as your cloud adoption efforts expand to include mission-critical data and workloads, this agility may conflict with corporate security and policy compliance requirements established by your IT teams. This is especially true for large enterprises that have existing sophisticated governance and regulatory requirements.
 
-The Azure Virtual Datacenter approach aims to address these concerns earlier in the adoption lifecycle by providing models, reference architectures, sample automation artifacts, and guidance to help achieve a balance between developer and IT governance requirements during enterprise cloud adoption efforts. Central to this approach is the concept of the virtual datacenter itself: the implementation of isolation boundaries around your cloud infrastructure through the application of access and security controls, network policies, and compliance monitoring. 
+The Azure Virtual Datacenter approach aims to address these concerns earlier in the adoption lifecycle by providing models, reference architectures, sample automation artifacts, and guidance to help achieve a balance between developer and IT governance requirements during enterprise cloud adoption efforts. Central to this approach is the concept of a virtual datacenter itself: the implementation of isolation boundaries around your cloud infrastructure through the application of access and security controls, network policies, and compliance monitoring.
 
-The virtual datacenter can be thought of as your own isolated cloud within the Azure platform, integrating management processes, regulatory requirements, and security processes required by your governance policies. Within this virtual boundary, Azure Virtual Datacenter offers example models for deploying workloads while ensuring consistent compliance and provides basic guidance on implementing an organization's separation of roles and responsibilities in the cloud. 
+A virtual datacenter can be thought of as your own isolated cloud within the Azure platform, integrating management processes, regulatory requirements, and security processes required by your governance policies. Within this virtual boundary, Azure Virtual Datacenter offers example models for deploying workloads while ensuring consistent compliance and provides basic guidance on implementing an organization's separation of roles and responsibilities in the cloud.
 
 ### Azure Virtual Datacenter assumptions
 
 Although smaller teams may benefit from the models and recommendations the Azure Virtual Datacenter provides, this approach is specifically designed to guide enterprise IT groups managing large cloud environments. For organizations that meet the following criteria it's recommended that you consider consulting the Azure Virtual Datacenter guidance when designing your Azure-based cloud infrastructure:
 
-- Your enterprise is subject to regulatory compliance requirements that require centralized monitoring and audit capabilities. 
+- Your enterprise is subject to regulatory compliance requirements that require centralized monitoring and audit capabilities.
 - Your cloud estate will consist of over 10,000 IaaS VMs or an equivalent scale of PaaS services.
-- You need to enable agile deployment capabilities for workloads in support of developer and operations teams, while maintaining common policy and governance compliance and central IT control over core services. 
-- Your industry is dependent on a complex platform which requires deep domain expertise, like Oil & Gas, Finance, etc…
+- You need to enable agile deployment capabilities for workloads in support of developer and operations teams, while maintaining common policy and governance compliance and central IT control over core services.
+- Your industry is dependent on a complex platform which requires deep domain expertise (for example, finance, oil and gas, or manufacturing).
 - Your existing IT governance policies require tighter parity with existing features, even during early stage adoption.
 
-For more information, visit the [Azure Virtual Datacenter](https://docs.microsoft.com/en-us/azure/architecture/vdc/) section of the CAF site.
-
-
+For more information, visit the [Azure Virtual Datacenter](/azure/architecture/vdc/) section of the CAF site.
 
 ## Next steps
 

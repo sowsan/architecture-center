@@ -74,7 +74,7 @@ These questions over simplify the technical solutions needed to manage or remove
 **Probability of loss**: Questions to determine how likely it is that the risk will become a reality. This is the most difficult area to quantify. Instead it is suggested that the Cloud Governance team create categories for communicating probability, based on the supporting data. The following questions can help create categories that are meaningful to the team.
 
 - Has any research been done regarding the likelihood of this risk being realized?
-- Can the vendor provide references or statistics on the likelihood of impact?
+- Can the vendor provide references or statistics on the likelihood of an impact?
 - Are there other companies in the relevant sector or vertical that have been hit by this risk?
 - Look further, are there other companies in general that have been hit by this risk?
 - Is this risk unique to something this company has done poorly?
@@ -82,11 +82,11 @@ These questions over simplify the technical solutions needed to manage or remove
 After answering these questions along with questions as determined by the Cloud Governance team, groupings of probability will likely emerge. The following are a few grouping samples to help get started:
 
 - No indication: Not enough research has been completed to determine probability.
-- Low risk: Current research suggests the risk is not likely to be realized.
-- Future risk: The current probability is low risk. However, continued adoption would trigger a fresh analysis.
-- Medium risk: It's likely that the risk will impact the business.
-- High risk: Overtime, it is increasing less likely that the business will avoid impact from this risk.
-- Declining risk: The risk is medium to high. However, actions in IT or business are reducing the likelihood of an impact.
+- Low risk: Current research indicates realizing the risk is unlikely.
+- Future risk: The current probability is low. However, continued adoption would require a fresh analysis.
+- Medium risk: It's likely that the risk will affect the business.
+- High risk: Over time, it is increasingly likely that the business will realize this risk.
+- Declining risk: The risk is medium to high. However, actions in IT or the business are reducing the likelihood of an impact.
 
 **Determining tolerance:**
 

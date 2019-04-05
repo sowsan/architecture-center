@@ -72,7 +72,7 @@ The following changes to policy will help remediate the new risks and guide impl
 3. All protected data must be encrypted when at rest.
 4. Elevated permissions in any segment containing protected data should be an exception. Any such exceptions will be recorded with the Cloud Governance team and audited regularly.
 5. Network subnets containing protected data must be isolated from any other subnets. Network traffic between protected data subnets will be audited regularly.
-6. No subnet containing protected data can be directly accessed over the public internet or across data centers. Access to those subnets must be routed through intermediate subnets. All access into those subnets must come through a firewall solution that can perform packet scanning and blocking functions.
+6. No subnet containing protected data can be directly accessed over the public internet or across datacenters. Access to those subnets must be routed through intermediate subnets. All access into those subnets must come through a firewall solution that can perform packet scanning and blocking functions.
 7. Governance tooling must audit and enforce network configuration requirements defined by the Security Management team.
 8. Governance tooling must limit VM deployment to approved images only.
 9. Whenever possible, node configuration management should apply policy requirements to the configuration of any guest operating system. Node configuration management should respect the existing investment in Group Policy Object (GPO) for resource configuration.

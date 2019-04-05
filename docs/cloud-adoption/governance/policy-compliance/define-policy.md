@@ -19,7 +19,7 @@ In traditional governance and incremental governance, corporate policy creates t
 
 *Figure 1. Corporate governance and governance disciplines.*
 
-The image above demonstrates the interactions between business risk, policy and compliance, and monitor and enforce to create a governance strategy. This is followed by using the five disciplines of cloud governance to realize your strategy.
+The image above demonstrates the interactions between business risk, policy and compliance, and monitor and enforce to create a governance strategy. This is followed by using the Five Disciplines of Cloud Governance to realize your strategy.
 
 Cloud Governance is the product of an ongoing adoption effort over time, as a true lasting transformation doesn't happen overnight. Attempting to deliver complete cloud governance before addressing key corporate policy changes using a fast aggressive method seldom produces the desired results. Instead we recommend an incremental approach.
 
@@ -34,7 +34,7 @@ The shift to cloud adoption requires a shift in governance. In many organization
 As governance is an ongoing process, policy should be regularly reviewed with IT staff and stakeholders to ensure resources hosted in the cloud continue to maintain compliance with overall corporate goals and requirements. Your understanding of new risks and acceptable tolerance can fuel a [review of existing policies](what-is-a-cloud-policy-review.md), in order to determine the required level of governance that is appropriate for your organization.
 
 > [!TIP]
-> If your organization makes use of vendors or other trusted business partners, one of the biggest business risks to consider may be a lack of adherence to [regulatory compliance](what-is-regulatory-compliance.md) by these external organizations. Often times this risk cannot be remediated, and instead may require a strict adherence to requirements by all parties. Make sure you've identified and understand any third-party compliance requirements before beginning a policy review.
+> If your organization uses vendors or other trusted business partners, one of the biggest business risks to consider may be a lack of adherence to [regulatory compliance](what-is-regulatory-compliance.md) by these external organizations. Often times this risk cannot be remediated, and instead may require a strict adherence to requirements by all parties. Make sure you've identified and understand any third-party compliance requirements before beginning a policy review.
 
 ## Create cloud policy statements
 
