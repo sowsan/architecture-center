@@ -623,8 +623,8 @@
           href: cloud-adoption/governance/journeys/small-to-medium-enterprise/resource-consistency-evolution.md
         - name: Cost Management evolution
           href: cloud-adoption/governance/journeys/small-to-medium-enterprise/cost-management-evolution.md
-        - name: Multi-cloud evolution
-          href: cloud-adoption/governance/journeys/small-to-medium-enterprise/multi-cloud-evolution.md
+        - name: Multicloud evolution
+          href: cloud-adoption/governance/journeys/small-to-medium-enterprise/multicloud-evolution.md
       - name: Large enterprise journey
         items:
         - name: Best practice
@@ -643,8 +643,8 @@
           href: cloud-adoption/governance/journeys/large-enterprise/resource-consistency-evolution.md
         - name: Cost Management evolution
           href: cloud-adoption/governance/journeys/large-enterprise/cost-management-evolution.md
-        - name: Multi-cloud evolution
-          href: cloud-adoption/governance/journeys/large-enterprise/multi-cloud-evolution.md
+        - name: Multicloud evolution
+          href: cloud-adoption/governance/journeys/large-enterprise/multicloud-evolution.md
         - name: Multiple layers of governance
           href: cloud-adoption/governance/journeys/large-enterprise/multiple-layers-of-governance.md
     - name: Governance theory
