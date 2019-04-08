@@ -42,4 +42,4 @@ For additional information on resource tagging in Azure, see the article on [Usi
 Apply data classifications during one of the actionable governance journeys.
 
 > [!div class="nextstepaction"]
-> [Begin an Actionable Governance Journey](../journeys/overview.md)
+> [Begin an Actionable Governance Journey](../journeys/index.md)

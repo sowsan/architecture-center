@@ -602,15 +602,15 @@
   - name: Governance
     items:
     - name: Overview
-      href: cloud-adoption/governance/overview.md
+      href: cloud-adoption/governance/index.md
     - name: Actionable governance journeys
       items:
       - name: Overview of the journeys
-        href: cloud-adoption/governance/journeys/overview.md
+        href: cloud-adoption/governance/journeys/index.md
       - name: Small-to-medium enterprise journey
         items:
         - name: Best practice
-          href: cloud-adoption/governance/journeys/small-to-medium-enterprise/overview.md
+          href: cloud-adoption/governance/journeys/small-to-medium-enterprise/index.md
         - name: Narrative
           href: cloud-adoption/governance/journeys/small-to-medium-enterprise/narrative.md
         - name: Initial corporate policy
@@ -628,7 +628,7 @@
       - name: Large enterprise journey
         items:
         - name: Best practice
-          href: cloud-adoption/governance/journeys/large-enterprise/overview.md
+          href: cloud-adoption/governance/journeys/large-enterprise/index.md
         - name: Narrative
           href: cloud-adoption/governance/journeys/large-enterprise/narrative.md
         - name: Initial corporate policy
@@ -656,7 +656,7 @@
       - name: Evolving corporate policy and compliance
         items:
           - name: How can corporate IT policy become cloud-ready?
-            href: cloud-adoption/governance/policy-compliance/overview.md
+            href: cloud-adoption/governance/policy-compliance/index.md
           - name: Understand business risks
             href: cloud-adoption/governance/policy-compliance/understanding-business-risk.md
           - name: Evaluate risk tolerance
@@ -680,7 +680,7 @@
         - name: Cost Management
           items:
             - name: Overview of the Cost Management discipline
-              href: cloud-adoption/governance/cost-management/overview.md
+              href: cloud-adoption/governance/cost-management/index.md
             - name: Download the template
               href: cloud-adoption/governance/cost-management/template.md
             - name: Understand business risks
@@ -698,7 +698,7 @@
         - name: Security Baseline
           items:
             - name: Overview of the Security Baseline discipline
-              href: cloud-adoption/governance/security-baseline/overview.md
+              href: cloud-adoption/governance/security-baseline/index.md
             - name: Download the template
               href: cloud-adoption/governance/security-baseline/template.md
             - name: Understand business risks
@@ -720,7 +720,7 @@
         - name: Identity Baseline
           items:
             - name: Overview of the Identity Baseline discipline
-              href: cloud-adoption/governance/identity-baseline/overview.md
+              href: cloud-adoption/governance/identity-baseline/index.md
             - name: Download the template
               href: cloud-adoption/governance/identity-baseline/template.md
             - name: Understand business risks
@@ -738,7 +738,7 @@
         - name: Resource Consistency
           items:
             - name: Overview of the Resource Consistency discipline
-              href: cloud-adoption/governance/resource-consistency/overview.md
+              href: cloud-adoption/governance/resource-consistency/index.md
             - name: Download the template
               href: cloud-adoption/governance/resource-consistency/template.md
             - name: Understand business risks
@@ -762,7 +762,7 @@
         - name: Deployment Acceleration
           items:
             - name: Overview of the Deployment Acceleration discipline
-              href: cloud-adoption/governance/deployment-acceleration/overview.md
+              href: cloud-adoption/governance/deployment-acceleration/index.md
             - name: Download the template
               href: cloud-adoption/governance/deployment-acceleration/template.md
             - name: Understand business risks
@@ -816,24 +816,23 @@
     - name: Decision Guides
       items:
       - name: Overview
-        href: cloud-adoption/decision-guides/overview.md
-        items:
+        href: cloud-adoption/decision-guides/index.md
       - name: Subscriptions
-        href: cloud-adoption/decision-guides/subscriptions/overview.md
+        href: cloud-adoption/decision-guides/subscriptions/index.md
       - name: Identity
-        href: cloud-adoption/decision-guides/identity/overview.md
+        href: cloud-adoption/decision-guides/identity/index.md
       - name: Policy enforcement
-        href: cloud-adoption/decision-guides/policy-enforcement/overview.md
+        href: cloud-adoption/decision-guides/policy-enforcement/index.md
       - name: Resource consistency
-        href: cloud-adoption/decision-guides/resource-consistency/overview.md
+        href: cloud-adoption/decision-guides/resource-consistency/index.md
       - name: Resource tagging
-        href: cloud-adoption/decision-guides/resource-tagging/overview.md
+        href: cloud-adoption/decision-guides/resource-tagging/index.md
       - name: Encryption
-        href: cloud-adoption/decision-guides/encryption/overview.md
+        href: cloud-adoption/decision-guides/encryption/index.md
       - name: Software defined networks
         items:
         - name: Overview
-          href: cloud-adoption/decision-guides/software-defined-network/overview.md
+          href: cloud-adoption/decision-guides/software-defined-network/index.md
         - name: PaaS Only
           href: cloud-adoption/decision-guides/software-defined-network/paas-only.md
         - name: Cloud Native
@@ -845,4 +844,4 @@
         - name: Hub and spoke model
           href: cloud-adoption/decision-guides/software-defined-network/hub-spoke.md
       - name: Logs and reporting
-        href: cloud-adoption/decision-guides/log-and-report/overview.md
+        href: cloud-adoption/decision-guides/log-and-report/index.md

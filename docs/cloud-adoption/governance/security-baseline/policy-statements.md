@@ -25,7 +25,7 @@ The following sample policy statements address a number of common security-relat
 
 **Policy statement**: All deployed assets must be categorized by criticality and data classification. Classifications must be reviewed by the Cloud Governance team and the application owner before deployment to the cloud.
 
-**Potential design option**: Establish [resource tagging standards](../../decision-guides/resource-tagging/overview.md) and ensure IT staff apply them consistently to any deployed resources using [Azure resource tags](/azure/azure-resource-manager/resource-group-using-tags).
+**Potential design option**: Establish [resource tagging standards](../../decision-guides/resource-tagging/index.md) and ensure IT staff apply them consistently to any deployed resources using [Azure resource tags](/azure/azure-resource-manager/resource-group-using-tags).
 
 ## Data encryption
 
@@ -89,7 +89,7 @@ Use the samples mentioned in this article as a starting point to develop policie
 
 To begin developing your own custom policy statements related to Security Baseline, download the [Security Baseline template](template.md).
 
-To accelerate adoption of this discipline, choose the [actionable governance journey](../journeys/overview.md) that most closely aligns with your environment. Then modify the design to incorporate your specific corporate policy decisions.
+To accelerate adoption of this discipline, choose the [actionable governance journey](../journeys/index.md) that most closely aligns with your environment. Then modify the design to incorporate your specific corporate policy decisions.
 
 > [!div class="nextstepaction"]
-> [Actionable Governance Journeys](../journeys/overview.md)
+> [Actionable Governance Journeys](../journeys/index.md)

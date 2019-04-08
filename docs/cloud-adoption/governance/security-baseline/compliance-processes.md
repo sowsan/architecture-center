@@ -11,7 +11,7 @@ author: BrianBlanchard
 
 # Security Baseline policy compliance processes
 
-This article discusses an approach to policy adherence processes that govern [Security Baseline](./overview.md). Effective governance of cloud security starts with recurring manual processes designed to detect vulnerabilities and impose policies to remediate those security risks. This requires regular involvement of the Cloud Governance team and interested business and IT stakeholders to review and update policy and ensure policy compliance. In addition, many ongoing monitoring and enforcement processes can be automated or supplemented with tooling to reduce the overhead of governance and allow for faster response to policy deviation.
+This article discusses an approach to policy adherence processes that govern [Security Baseline](./index.md). Effective governance of cloud security starts with recurring manual processes designed to detect vulnerabilities and impose policies to remediate those security risks. This requires regular involvement of the Cloud Governance team and interested business and IT stakeholders to review and update policy and ensure policy compliance. In addition, many ongoing monitoring and enforcement processes can be automated or supplemented with tooling to reduce the overhead of governance and allow for faster response to policy deviation.
 
 ## Planning, review, and reporting processes
 

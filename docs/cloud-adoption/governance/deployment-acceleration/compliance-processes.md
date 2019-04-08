@@ -11,7 +11,7 @@ author: alexbuckgit
 
 # Deployment Acceleration policy compliance processes
 
-This article discusses an approach to policy adherence processes that govern [Deployment Acceleration](./overview.md). Effective governance of cloud configuration starts with recurring manual processes designed to detect issues and impose policies to remediate those risks. However, you can automate these processes and supplement with tooling to reduce the overhead of governance and allow for faster response to deviation.
+This article discusses an approach to policy adherence processes that govern [Deployment Acceleration](./index.md). Effective governance of cloud configuration starts with recurring manual processes designed to detect issues and impose policies to remediate those risks. However, you can automate these processes and supplement with tooling to reduce the overhead of governance and allow for faster response to deviation.
 
 ## Planning, review, and reporting processes
 

@@ -19,7 +19,7 @@ I've defined policies, I've provided an architecture guide. Now how do I monitor
 
 After establishing your cloud policy statements and drafting a design guide, you'll need to create a strategy for ensuring your cloud deployment stays in compliance with your policy requirements. This strategy will need to encompass your Cloud Governance team's ongoing review and communication processes, establish criteria for when policy violations require action, and defining the requirements for automated monitoring and compliance systems that will detect violations and trigger remediation actions.
 
-See the corporate policy sections of the [actionable governance journeys](../journeys/overview.md) for examples of how policy adherence process fit into a cloud governance plan.
+See the corporate policy sections of the [actionable governance journeys](../journeys/index.md) for examples of how policy adherence process fit into a cloud governance plan.
 
 ## Prioritize policy adherence processes
 
@@ -82,4 +82,4 @@ Some examples of violation triggers and actions:
 
 After you've defined your compliance violation triggers and actions, you can start planning how best to use the logging and reporting tools and other features of the cloud platform to help automate your monitoring and policy compliance strategy.
 
-Consult the CAF [logging and reporting decision guide](../../decision-guides/log-and-report/overview.md) topic for guidance on choosing the best monitoring pattern for your deployment.
+Consult the CAF [logging and reporting decision guide](../../decision-guides/log-and-report/index.md) topic for guidance on choosing the best monitoring pattern for your deployment.

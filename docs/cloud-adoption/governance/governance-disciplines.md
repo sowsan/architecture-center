@@ -54,7 +54,7 @@ Across each cloud provider, there are common governance disciplines that can ser
 
 <ul class="panelContent cardsA">
 <li style="display: flex; flex-direction: column;">
-    <a href="./cost-management/overview.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./cost-management/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -73,7 +73,7 @@ Across each cloud provider, there are common governance disciplines that can ser
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="./security-baseline/overview.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./security-baseline/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -92,7 +92,7 @@ Across each cloud provider, there are common governance disciplines that can ser
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="./resource-consistency/overview.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./resource-consistency/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -111,7 +111,7 @@ Across each cloud provider, there are common governance disciplines that can ser
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="./identity-baseline/overview.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./identity-baseline/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -130,7 +130,7 @@ Across each cloud provider, there are common governance disciplines that can ser
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="./deployment-acceleration/overview.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./deployment-acceleration/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">

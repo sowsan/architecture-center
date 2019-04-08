@@ -13,13 +13,13 @@ author: BrianBlanchard
 
 The Resource Consistency discipline focuses on ways of establishing policies related to the operational management of an environment, application, or workload. Within the Five Disciplines of Cloud Governance, Resource Consistency includes monitoring of applications, workload, and asset performance. It also includes the tasks required to meet scale demands, remediate performance Service Level Agreement (SLA) violations, and proactively avoid SLA violations through automated remediation.
 
-This article outlines some potential tasks your company can engage in to better develop and mature the Resource Consistency discipline. These tasks can be broken down into planning, building, adopting, and operating phases of implementing a cloud solution, which are then iterated on allowing the development of an [incremental approach to cloud governance](../journeys/overview.md#an-incremental-approach-to-cloud-governance).
+This article outlines some potential tasks your company can engage in to better develop and mature the Resource Consistency discipline. These tasks can be broken down into planning, building, adopting, and operating phases of implementing a cloud solution, which are then iterated on allowing the development of an [incremental approach to cloud governance](../journeys/index.md#an-incremental-approach-to-cloud-governance).
 
 ![Four phases of adoption](../../_images/adoption-phases.png)
 
 *Figure 1. Adoption phases of the incremental approach to cloud governance.*
 
-It's impossible for any one document to account for the requirements of all businesses. As such, this article outlines suggested minimum and potential example activities for each phase of the governance maturation process. The initial objective of these activities is to help you build a [Policy MVP](../journeys/overview.md#an-incremental-approach-to-cloud-governance) and establish a framework for incremental policy evolution. Your Cloud Governance team will need to decide how much to invest in these activities to improve your Resource Consistency governance capabilities.
+It's impossible for any one document to account for the requirements of all businesses. As such, this article outlines suggested minimum and potential example activities for each phase of the governance maturation process. The initial objective of these activities is to help you build a [Policy MVP](../journeys/index.md#an-incremental-approach-to-cloud-governance) and establish a framework for incremental policy evolution. Your Cloud Governance team will need to decide how much to invest in these activities to improve your Resource Consistency governance capabilities.
 
 > [!CAUTION]
 > Neither the minimum or potential activities outlined in this article are aligned to specific corporate policies or third-party compliance requirements. This guidance is designed to help facilitate the conversations that will lead to alignment of both requirements with a cloud governance model.
@@ -58,9 +58,9 @@ A number of technical and nontechnical prerequisites are required to successful 
 
 **Potential activities:**
 
-* Decide on a [subscription design strategy](../../decision-guides/subscriptions/overview.md), choosing the subscription patterns that best fit your organization and workload needs.
-* Use a [resource consistency](../../decision-guides/resource-consistency/overview.md) strategy to enforce architecture guidelines over time.
-* Implement [resource naming, and tagging standards](../../decision-guides/resource-tagging/overview.md) for your resources to match your organizational and accounting requirements.
+* Decide on a [subscription design strategy](../../decision-guides/subscriptions/index.md), choosing the subscription patterns that best fit your organization and workload needs.
+* Use a [resource consistency](../../decision-guides/resource-consistency/index.md) strategy to enforce architecture guidelines over time.
+* Implement [resource naming, and tagging standards](../../decision-guides/resource-tagging/index.md) for your resources to match your organizational and accounting requirements.
 * To create proactive point-in-time governance, use deployment templates and automation to enforce common configurations and a consistent grouping structure when deploying resources and resource groups.
 * Establish a least privilege permissions model, where users have no permissions by default.
 * Determine who in your organization owns each workload and account, and who will need to access to maintain or modify these resources. Define cloud roles and responsibilities that match these needs and use these roles as the basis for access control.
@@ -125,4 +125,4 @@ Now that you understand the concept of cloud resource governance, move on to lea
 > [!div class="nextstepaction"]
 > [Learn about resource access in Azure](azure-resource-access.md)
 > [Learn about SLAs for Azure](https://azure.microsoft.com/support/legal/sla/)
-> [Learn about logging, reporting, and monitoring](../../decision-guides/log-and-report/overview.md)
+> [Learn about logging, reporting, and monitoring](../../decision-guides/log-and-report/index.md)

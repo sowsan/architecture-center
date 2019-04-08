@@ -11,7 +11,7 @@ author: BrianBlanchard
 
 # Identity Baseline tools in Azure
 
-[Identity Baseline](overview.md) is one of the [Five Disciplines of Cloud Governance](../governance-disciplines.md). This discipline focuses on ways of establishing policies that ensure consistency and continuity of user identities regardless of the cloud provider that hosts the application or workload.
+[Identity Baseline](index.md) is one of the [Five Disciplines of Cloud Governance](../governance-disciplines.md). This discipline focuses on ways of establishing policies that ensure consistency and continuity of user identities regardless of the cloud provider that hosts the application or workload.
 
 The following tools are included in the discovery guide on Hybrid Identity.
 

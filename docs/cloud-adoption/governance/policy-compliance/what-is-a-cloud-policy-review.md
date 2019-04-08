@@ -13,7 +13,7 @@ author: BrianBlanchard
 
 # What is a cloud policy review?
 
-A **cloud policy review** is the first step toward [governance maturity](../overview.md) in the cloud. The objective of this process is to modernize existing corporate IT policies. When completed, the updated policies provide an equivalent level of risk management for cloud-based resources. This article explains the cloud policy review process and its importance.
+A **cloud policy review** is the first step toward [governance maturity](../index.md) in the cloud. The objective of this process is to modernize existing corporate IT policies. When completed, the updated policies provide an equivalent level of risk management for cloud-based resources. This article explains the cloud policy review process and its importance.
 
 ## Why perform a cloud policy review?
 
@@ -30,7 +30,7 @@ When executing a cloud transformation, policies often govern many of the tools, 
 
 ## The cloud policy review process
 
-Cloud policy reviews align existing IT governance and IT security policies with the [Five Disciplines of Cloud Governance](../overview.md): [Cost Management](../cost-management/overview.md), [Security Baseline](../security-baseline/overview.md), [Identity Baseline](../identity-baseline/overview.md), [Resource Consistency](../resource-consistency/overview.md), and [Deployment Acceleration](../deployment-acceleration/overview.md).
+Cloud policy reviews align existing IT governance and IT security policies with the [Five Disciplines of Cloud Governance](../index.md): [Cost Management](../cost-management/index.md), [Security Baseline](../security-baseline/index.md), [Identity Baseline](../identity-baseline/index.md), [Resource Consistency](../resource-consistency/index.md), and [Deployment Acceleration](../deployment-acceleration/index.md).
 
 For each of these disciplines, the review process follows these steps:
 

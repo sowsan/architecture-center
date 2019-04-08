@@ -11,9 +11,9 @@ author: BrianBlanchard
 
 # Large enterprise: Best practice explained
 
-The governance journey starts with a set of initial [corporate policies](./initial-corporate-policy.md). These policies are used to establish a minimum viable product (MVP) for governance that reflects [best practices](./overview.md).
+The governance journey starts with a set of initial [corporate policies](./initial-corporate-policy.md). These policies are used to establish a minimum viable product (MVP) for governance that reflects [best practices](./index.md).
 
-In this article, we discuss the high-level strategies that are required to create a governance MVP. The core of the governance MVP is the [Deployment Acceleration](../../deployment-acceleration/overview.md) discipline. The tools and patterns applied at this stage will enable the incremental evolutions needed to expand governance in the future.
+In this article, we discuss the high-level strategies that are required to create a governance MVP. The core of the governance MVP is the [Deployment Acceleration](../../deployment-acceleration/index.md) discipline. The tools and patterns applied at this stage will enable the incremental evolutions needed to expand governance in the future.
 
 ## Governance MVP (Cloud Adoption Foundation)
 
@@ -44,7 +44,7 @@ The Cloud Governance team will be responsible for the following decisions and im
 
 ### Subscription design
 
-The decision on what subscription design to use determines how Azure subscriptions get structured and how Azure management groups will be used to  efficiently manage access, policies, and compliance of these subscription. In this narrative, the  governance team has chosen the **[Mixed](../../../decision-guides/subscriptions/overview.md#mixed-patterns)** subscription design pattern.
+The decision on what subscription design to use determines how Azure subscriptions get structured and how Azure management groups will be used to  efficiently manage access, policies, and compliance of these subscription. In this narrative, the  governance team has chosen the **[Mixed](../../../decision-guides/subscriptions/index.md#mixed-patterns)** subscription design pattern.
 
 - As new requests for Azure resources arise, a "Department" should be established for each major business unit in each operating geography. Within each of the Departments, "Subscriptions" should be created for each application archetype.
 - An application archetype is a means of grouping applications with similar needs. Common examples include: Applications with protected data, governed applications (such as HIPAA or FedRAMP), low-risk applications, applications with on-premises dependencies, SAP or other mainframe applications in Azure, or applications that extend on-premises SAP or mainframe applications. Each organization has unique needs based on data classifications and the types of applications that support the business. Dependency mapping of the digital estate can help define the application archetypes in an organization.
@@ -52,7 +52,7 @@ The decision on what subscription design to use determines how Azure subscriptio
 
 ### Resource consistency
 
-Resource consistency decisions determine the tools, processes, and effort required to ensure Azure resources are deployed, configured, and managed consistently within a subscription. In this narrative, **[Hierarchical Consistency](../../../decision-guides/resource-consistency/overview.md#hierarchical-consistency)** has been chosen as the primary resource consistency pattern.
+Resource consistency decisions determine the tools, processes, and effort required to ensure Azure resources are deployed, configured, and managed consistently within a subscription. In this narrative, **[Hierarchical Consistency](../../../decision-guides/resource-consistency/index.md#hierarchical-consistency)** has been chosen as the primary resource consistency pattern.
 
 - Resource groups should be created for each application. Management groups should be created for each application archetype. Azure Policy should be applied to all subscriptions in the associated management group.
 - As part of the deployment process, Resource Consistency templates for all assets should be stored in source control.
@@ -62,14 +62,14 @@ Resource consistency decisions determine the tools, processes, and effort requir
 
 ### Resource tagging
 
-Resource tagging decisions determine how metadata is applied to Azure resources within a subscription to support operations, management, and accounting purposes. In this narrative, the **[Accounting](../../../decision-guides/resource-tagging/overview.md#resource-tagging-patterns)** pattern has been chosen as a the default model for resource tagging.
+Resource tagging decisions determine how metadata is applied to Azure resources within a subscription to support operations, management, and accounting purposes. In this narrative, the **[Accounting](../../../decision-guides/resource-tagging/index.md#resource-tagging-patterns)** pattern has been chosen as a the default model for resource tagging.
 
 - Deployed assets should be tagged with values for the following: Department/Billing Unit, Geography, Data Classification, Criticality, SLA, Environment, Application Archetype, Application, and Application Owner.
 - These values along with the Azure management group and subscription associated with a deployed asset will drive governance, operations, and security decisions.
 
 ### Logging and reporting
 
-Logging and reporting decisions determine how your store log data and how the monitoring and reporting tools that keep IT staff informed on operational health are structured. In this narrative a **[Hybrid monitoring](../../../decision-guides/log-and-report/overview.md)** pattern for logging and reporting is suggested, but not required of any development team at this point.
+Logging and reporting decisions determine how your store log data and how the monitoring and reporting tools that keep IT staff informed on operational health are structured. In this narrative a **[Hybrid monitoring](../../../decision-guides/log-and-report/index.md)** pattern for logging and reporting is suggested, but not required of any development team at this point.
 
 
 - No governance requirements are currently set regarding the specific data points to be collected for logging or reporting purposes. This is specific to this fictional narrative and should be considered an antipattern. Logging standards should be determined and enforced as soon as possible.
@@ -96,14 +96,14 @@ Some of the policy statements cannot or should not be controlled by automated to
 
 If any of the patterns chosen in this governance journey don't align with the reader's requirements, alternatives to each pattern are available:
 
-- [Encryption patterns](../../../decision-guides/encryption/overview.md)
-- [Identity patterns](../../../decision-guides/identity/overview.md)
-- [Logging and Reporting patterns](../../../decision-guides/log-and-report/overview.md)
-- [Policy Enforcement patterns](../../../decision-guides/policy-enforcement/overview.md)
-- [Resource Consistency patterns](../../../decision-guides/resource-consistency/overview.md)
-- [Resource Tagging patterns](../../../decision-guides/resource-tagging/overview.md)
-- [Software Defined Network patterns](../../../decision-guides/software-defined-network/overview.md)
-- [Subscription Design patterns](../../../decision-guides/subscriptions/overview.md)
+- [Encryption patterns](../../../decision-guides/encryption/index.md)
+- [Identity patterns](../../../decision-guides/identity/index.md)
+- [Logging and Reporting patterns](../../../decision-guides/log-and-report/index.md)
+- [Policy Enforcement patterns](../../../decision-guides/policy-enforcement/index.md)
+- [Resource Consistency patterns](../../../decision-guides/resource-consistency/index.md)
+- [Resource Tagging patterns](../../../decision-guides/resource-tagging/index.md)
+- [Software Defined Network patterns](../../../decision-guides/software-defined-network/index.md)
+- [Subscription Design patterns](../../../decision-guides/subscriptions/index.md)
 
 ## Next steps
 

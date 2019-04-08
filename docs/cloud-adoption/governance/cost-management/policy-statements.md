@@ -26,7 +26,7 @@ The following sample policy statements address a number of common cost-related b
 
 **Policy statement**. You should associate all assets deployed to the cloud with a billing unit and application/workload. This policy will ensure that future Cost Management efforts will be effective.
 
-**Design options**. For information on establishing a future-proof foundation, see the discussions related to creating a governance MVP in the [actionable design guides](../journeys/overview.md) included as part of the CAF guidance.
+**Design options**. For information on establishing a future-proof foundation, see the discussions related to creating a governance MVP in the [actionable design guides](../journeys/index.md) included as part of the CAF guidance.
 
 ## Budget overruns
 
@@ -45,7 +45,7 @@ The following sample policy statements address a number of common cost-related b
 **Design options:**
 
 - In Azure, planned versus actual spending can be managed via [Azure Cost Management](/azure/cost-management/quick-acm-cost-analysis)
-- There are several options for grouping resources by billing unit. In Azure, a [resource consistency model](../../decision-guides/resource-consistency/overview.md) should be chosen in conjunction with the governance team and applied to all assets.
+- There are several options for grouping resources by billing unit. In Azure, a [resource consistency model](../../decision-guides/resource-consistency/index.md) should be chosen in conjunction with the governance team and applied to all assets.
 
 ## Overprovisioned assets
 
@@ -56,7 +56,7 @@ The following sample policy statements address a number of common cost-related b
 **Design options:**
 
 - In Azure, [Azure Advisor](/azure/advisor/advisor-cost-recommendations) can provide optimization recommendations.
-- There are several options for grouping resources by billing unit. In Azure, a [resource consistency model](../../decision-guides/resource-consistency/overview.md) should be chosen in conjunction with the governance team and applied to all assets.
+- There are several options for grouping resources by billing unit. In Azure, a [resource consistency model](../../decision-guides/resource-consistency/index.md) should be chosen in conjunction with the governance team and applied to all assets.
 
 ## Overoptimization
 
@@ -67,7 +67,7 @@ The following sample policy statements address a number of common cost-related b
 **Design options:**
 
 - In Azure, [Azure Monitor's insights features](/azure/azure-monitor/insights/vminsights-performance) can help with analysis of system utilization.
-- There are several options for grouping and tagging resources based on roles. In Azure, you should choose a [resource consistency model](../../decision-guides/resource-consistency/overview.md) in conjunction with the governance team and apply this to all assets.
+- There are several options for grouping and tagging resources based on roles. In Azure, you should choose a [resource consistency model](../../decision-guides/resource-consistency/index.md) in conjunction with the governance team and apply this to all assets.
 
 ## Next steps
 
@@ -75,7 +75,7 @@ Use the samples mentioned in this article as a starting point to develop policie
 
 To begin developing your own custom policy statements related to Cost Management, download the [Cost Management template](template.md).
 
-To accelerate adoption of this discipline, choose the [actionable governance journey](../journeys/overview.md) that most closely aligns with your environment. Then modify the design to incorporate your specific corporate policy decisions.
+To accelerate adoption of this discipline, choose the [actionable governance journey](../journeys/index.md) that most closely aligns with your environment. Then modify the design to incorporate your specific corporate policy decisions.
 
 > [!div class="nextstepaction"]
-> [Actionable Governance Journeys](../journeys/overview.md)
+> [Actionable Governance Journeys](../journeys/index.md)
