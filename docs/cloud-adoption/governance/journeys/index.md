@@ -68,13 +68,13 @@ A journey without a target destination is just wandering. It’s important to es
 
 The CAF governance model identifies key areas of importance during the journey. Each area relates to different types of risks the company must address as it adopts more cloud services. Within this framework, the governance journey identifies required actions for the Cloud Governance team. Along the way, each principle of the CAF governance model is described further. Broadly, these include:
 
-**Corporate policies**. Corporate policies drive cloud governance. The governance journey focuses on specific aspects of corporate policy:
+**Corporate policies:** Corporate policies drive cloud governance. The governance journey focuses on specific aspects of corporate policy:
 
-- Business Risks: Identifying and understanding corporate risks.
-- Policy and Compliance: Converting risks into policy statements that support any compliance requirements.
-- Processes: Ensuring adherence to the stated policies.
+- **Business risks:** Identifying and understanding corporate risks.
+- **Policy and compliance:** Converting risks into policy statements that support any compliance requirements.
+- **Processes:** Ensuring adherence to the stated policies.
 
-**Five Disciplines of Cloud Governance**. These disciplines support the corporate policies. Each discipline protects the company from potential pitfalls:
+**Five Disciplines of Cloud Governance:** These disciplines support the corporate policies. Each discipline protects the company from potential pitfalls:
 
 - Cost Management
 - Security Baseline
@@ -106,7 +106,7 @@ The journeys demonstrate how to implement a governance MVP. From there, each jou
 To begin a governance journey, choose one of the two options below. The options are based on synthesized customer experiences. The titles are based on the size of the enterprise for ease of navigation. However, the reader's decision may be more complex. The following tables outline the differences between the two options.
 
 > [!WARNING]
-> A more robust governance starting point may be required. In such cases, please consider the [Azure Virtual Datacenter](#azure-virtual-datacenter) approach briefly described [below](#azure-virtual-datacenter). This approach is commonly suggested during enterprise-scale adoption efforts, and especially for efforts which exceed 10,000 assets. It is also the de facto choice for complex governance scenarios when any of the following are required: extensive third-party compliance requirements, deep domain expertise, or parity with mature IT governance policies and compliance requirements.
+> A more robust governance starting point may be required. In such cases, consider the [Azure Virtual Datacenter](#azure-virtual-datacenter) approach briefly described [below](#azure-virtual-datacenter). This approach is commonly suggested during enterprise-scale adoption efforts, and especially for efforts which exceed 10,000 assets. It is also the de facto choice for complex governance scenarios when any of the following are required: extensive third-party compliance requirements, deep domain expertise, or parity with mature IT governance policies and compliance requirements.
 
 > [!NOTE]
 > It’s unlikely that either journey aligns completely to your situation. Choose whichever journey is closest and use it as a starting point. Throughout the journey, additional information is provided to help you customize decisions to meet specific criteria.

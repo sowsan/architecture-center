@@ -35,7 +35,7 @@ Since then, some things have changed that will affect governance:
 
 ## Evolution of tangible risks
 
-**Budget control**: There is an inherent risk that self-service capabilities will result in excessive and unexpected costs on the new platform. Governance processes for monitoring costs and mitigating ongoing cost risks must be in place to ensure continued alignment with the planned budget.
+**Budget control:** There is an inherent risk that self-service capabilities will result in excessive and unexpected costs on the new platform. Governance processes for monitoring costs and mitigating ongoing cost risks must be in place to ensure continued alignment with the planned budget.
 
 This business risk can be expanded into a few technical risks:
 

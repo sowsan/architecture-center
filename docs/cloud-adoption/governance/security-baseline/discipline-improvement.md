@@ -95,7 +95,7 @@ Once the transformation is complete, governance and operations must live on for 
 
 **Minimum suggested activities:**
 
-- Validate and/or refine your [Security Baseline toolchain](toolchain.md).
+- Validate and refine your [Security Baseline toolchain](toolchain.md).
 - Customize notifications and reports to alert you of potential security issues.
 - Refine the Architecture Guidelines to guide future adoption processes.
 - Communicate and educate the affected teams periodically to ensure ongoing adherence to architecture guidelines.

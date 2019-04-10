@@ -234,11 +234,11 @@ Follow these steps:
 2. Your organization's leadership team decides which people are responsible for:
     - Management of user identity; an [Azure AD tenant](/azure/active-directory/develop/active-directory-howto-tenant) is created by default when your organization's Azure Account is created, and the account administrator is added as the [Azure AD global administrator](/azure/active-directory/active-directory-assign-admin-roles-azure-portal#details-about-the-global-administrator-role) by default. Your organization can choose another user to manage user identity by [assigning the Azure AD global administrator role to that user](/azure/active-directory/active-directory-users-assign-role-azure-portal).
     - Subscriptions, which means these users:
-        - Manage costs associated with resource usage in that subscription,
-        - Implement and maintain least permission model for resource access, and
+        - Manage costs associated with resource usage in that subscription.
+        - Implement and maintain least permission model for resource access.
         - Keep track of service limits.
     - Shared infrastructure services (if your organization decides to use this model), which means this user is responsible for:
-        - On-premises to Azure network connectivity, and
+        - On-premises to Azure network connectivity.
         - Ownership of network connectivity within Azure through virtual network peering.
     - Workload owners.
 3. The Azure AD global administrator [creates the new user accounts](/azure/active-directory/add-users-azure-active-directory) for:

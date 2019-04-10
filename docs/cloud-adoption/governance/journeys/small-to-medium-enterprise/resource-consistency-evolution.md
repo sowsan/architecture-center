@@ -35,7 +35,7 @@ The changes to current and future state expose new risks that will require new p
 
 ## Evolution of tangible risks
 
-**Business Interruption**: There is an inherent risk of any new platform causing interruptions to mission-critical business processes. The IT Operations team and the teams executing on various cloud adoptions are relatively inexperienced with cloud operations. This increases the risk of interruption and must be remediated and governed.
+**Business interruption:** There is an inherent risk of any new platform causing interruptions to mission-critical business processes. The IT Operations team and the teams executing on various cloud adoptions are relatively inexperienced with cloud operations. This increases the risk of interruption and must be remediated and governed.
 
 This business risk can be expanded into a number of technical risks:
 

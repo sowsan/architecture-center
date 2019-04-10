@@ -22,11 +22,11 @@ The following sample policy statements address a number of common cost-related b
 
 ## Future-proofing
 
-**Business risk**. Current criteria that don't warrant an investment in a Cost Management discipline from the governance team. However, you anticipate such an investment in the future.
+**Business risk:** Current criteria that don't warrant an investment in a Cost Management discipline from the governance team. However, you anticipate such an investment in the future.
 
-**Policy statement**. You should associate all assets deployed to the cloud with a billing unit and application/workload. This policy will ensure that future Cost Management efforts will be effective.
+**Policy statement:** You should associate all assets deployed to the cloud with a billing unit and application/workload. This policy will ensure that future Cost Management efforts will be effective.
 
-**Design options**. For information on establishing a future-proof foundation, see the discussions related to creating a governance MVP in the [actionable design guides](../journeys/index.md) included as part of the CAF guidance.
+**Design options:** For information on establishing a future-proof foundation, see the discussions related to creating a governance MVP in the [actionable design guides](../journeys/index.md) included as part of the CAF guidance.
 
 ## Budget overruns
 

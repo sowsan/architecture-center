@@ -78,9 +78,9 @@ Using the cloud can reduce some of the security burden. Microsoft provides physi
 
 Even with this investment in Cloud Native Security Baseline, it is suggested that any Security Baseline policy extend the default Cloud Native policies. The following are examples of extended policies that should be considered, even in a Cloud Native environment:
 
-* **Secure VMs**. Security should be every organization's top priority, and doing it effectively requires several things. You must assess your security state, protect against security threats, and then detect and respond rapidly to threats that occur.
-* **Protect VM contents**. Setting up regular automated backups is essential to protect against user errors. This isn’t enough, though; you must also make sure that your backups are safe from cyberattacks and are available when you need them.
-* **Monitor VMs and applications**. This pattern encompasses several tasks, including getting insight into the health of your VMs, understanding interactions among them, and establishing ways to monitor the applications these VMs run. All of these tasks are essential in keeping your applications running around the clock.
+* **Secure VMs:** Security should be every organization's top priority, and doing it effectively requires several things. You must assess your security state, protect against security threats, and then detect and respond rapidly to threats that occur.
+* **Protect VM contents:** Setting up regular automated backups is essential to protect against user errors. This isn’t enough, though; you must also make sure that your backups are safe from cyberattacks and are available when you need them.
+* **Monitor VMs and applications:** This pattern encompasses several tasks, including getting insight into the health of your VMs, understanding interactions among them, and establishing ways to monitor the applications these VMs run. All of these tasks are essential in keeping your applications running around the clock.
 
 ## Next steps
 

@@ -1,3 +1,3 @@
 ---
-redirect_url: multi-cloud-evolution
+redirect_url: multicloud-evolution
 ---

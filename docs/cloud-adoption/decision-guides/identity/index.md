@@ -38,7 +38,7 @@ As part of planning your migration to Azure, you will need to determine how best
 
 Azure AD is the native Identity and Access Management (IAM) system for granting users and groups access to management features on the Azure platform. If your organization lacks a significant on-premises identity solution, and you plan on migrating workloads to be compatible with cloud-based authentication mechanisms, you should begin developing your identity infrastructure using Azure AD as a base.
 
-**Cloud baseline assumptions**. Using a purely cloud-native identity infrastructure assumes the following:
+**Cloud baseline assumptions:** Using a purely cloud-native identity infrastructure assumes the following:
 
 - Your cloud-based resources will not have dependencies on on-premises directory services or Active Directory servers, or workloads can be modified to remove those dependencies.
 - The application or service workloads being migrated either support authentication mechanisms compatible with Azure AD or can be modified easily to support them. Azure AD relies on internet-ready authentication mechanisms such as SAML, OAuth, and OpenID Connect. Existing workloads that depend on legacy authentication methods using protocols such as Kerberos or NTLM may need to be refactored before migrating to the cloud using the cloud baseline pattern.
@@ -56,7 +56,7 @@ For organizations with existing on-premises Active Directory infrastructure, dir
 
 Note: Organizations that have adopted Office 365 may have already implemented [directory synchronization](/office365/enterprise/set-up-directory-synchronization) between their on-premises Active Directory infrastructure and Azure Active Directory.
 
-**Directory synchronization assumptions**. Using a synchronized identity solution assumes the following:
+**Directory synchronization assumptions:** Using a synchronized identity solution assumes the following:
 
 - You need to maintain a common set of user accounts and groups across your cloud and on-premises IT infrastructure.
 - Your on-premises identity services support replication with Azure AD.
@@ -72,7 +72,7 @@ This pattern involves deploying virtual machines running Active Directory to you
 
 It's likely that your existing directories and domain services will continue to be used in your on-premises environment. In this scenario, it's recommended that you also use directory synchronization to provide a common set of users and roles in both the cloud and on-premises environments.
 
-**Cloud hosted domain services assumptions**. Performing a directory migration assumes the following:
+**Cloud-hosted domain services assumptions:** Performing a directory migration assumes the following:
 
 - Your workloads depend on claims-based authentication using protocols like Kerberos or NTLM.
 - Your workload virtual machines need to be domain-joined for management or application of Active Directory group policy purposes.

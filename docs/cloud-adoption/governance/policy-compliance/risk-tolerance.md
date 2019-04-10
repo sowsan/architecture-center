@@ -19,11 +19,11 @@ True business risks will be based on the what and how behind specific transforma
 
 **Before reading the following, be aware that each of these risks can be managed. The goal of this article is to inform and prepare readers, so that risk management discussion can be more effective. **
 
-- **Data breach**: The number one risk associated with any transformation, is the protection of data. Data leaks can cause significant damage to your company, leading to loss of customers, decrease in business, or even legal liability. Any changes to the way data is stored, processed, or used creates risk. Cloud transformations create a high degree of change regarding data management, so the risk should not be taken lightly. [Security Baseline](../security-baseline/index.md), [Data Classification](./what-is-data-classification.md), and [Incremental Rationalization](../../digital-estate/rationalize.md#incremental-rationalization) can each help manage this risk.
+- **Data breach:** The number one risk associated with any transformation, is the protection of data. Data leaks can cause significant damage to your company, leading to loss of customers, decrease in business, or even legal liability. Any changes to the way data is stored, processed, or used creates risk. Cloud transformations create a high degree of change regarding data management, so the risk should not be taken lightly. [Security Baseline](../security-baseline/index.md), [Data Classification](./what-is-data-classification.md), and [Incremental Rationalization](../../digital-estate/rationalize.md#incremental-rationalization) can each help manage this risk.
 
-- **Service disruption**: Business operations and customer experiences rely heavily on technical operations. Cloud transformations will create change in IT operations. In some organizations, that change is small and easily adjusted. In other organizations, these changes could require retooling, retraining, or new approaches to support cloud operations. The bigger the change, the bigger the potential effect on business operations and customer experience. Managing this risk will require the involvement of the business in transformation planning. Release planning and First workload selection in the [Incremental Rationalization](../../digital-estate/rationalize.md#incremental-rationalization) article discuss ways to choose workloads for transformation projects. The business's role in that activity is to communicate the business operations risk of changing prioritized workloads. Helping IT choose workloads that have a lower impact on operations will reduce the overall risk.
+- **Service disruption:** Business operations and customer experiences rely heavily on technical operations. Cloud transformations will create change in IT operations. In some organizations, that change is small and easily adjusted. In other organizations, these changes could require retooling, retraining, or new approaches to support cloud operations. The bigger the change, the bigger the potential effect on business operations and customer experience. Managing this risk will require the involvement of the business in transformation planning. Release planning and First workload selection in the [Incremental Rationalization](../../digital-estate/rationalize.md#incremental-rationalization) article discuss ways to choose workloads for transformation projects. The business's role in that activity is to communicate the business operations risk of changing prioritized workloads. Helping IT choose workloads that have a lower impact on operations will reduce the overall risk.
 
-- **Budget control**: Cost models change in the cloud. This change can create risks associated with cost overruns or increases in cost of goods sold (COGS), especially directly attributed operational expenses. When business works closely with IT, it is feasible to create transparency regarding costs and services consumed by various business units, programs, projects, etc... [Cost Management](../cost-management/index.md) provides examples of ways business and IT can partner on this topic.
+- **Budget control:** Cost models change in the cloud. This change can create risks associated with cost overruns or increases in cost of goods sold (COGS), especially directly attributed operational expenses. When business works closely with IT, it is feasible to create transparency regarding costs and services consumed by various business units, programs, projects, etc... [Cost Management](../cost-management/index.md) provides examples of ways business and IT can partner on this topic.
 
 The above are a few of the most common risks mentioned by customers. The Cloud Governance team and the cloud adoption teams can begin to develop a risk profile, as workloads are migrated and readied for production release. Be prepared for conversations to define, refine, and manage risks based on the desired business outcomes and transformation effort.
 
@@ -45,7 +45,7 @@ The next section shares a few sample questions that could help the business dete
 
 This section lists conversation provoking questions in three categories: loss impact, probability of loss, and remediation costs. When business and IT partner to address each of these areas, the decision to expend effort on managing risks and the overall tolerance to a particular risk can easily be determined.
 
-**Loss impact**: Questions to determine the impact of a risk. These questions can be difficult (sometimes impossible) to answer. Quantifying the impact is best, but sometimes the conversation alone is enough to understand tolerance. Ranges are also acceptable, especially if they include assumptions that determined those ranges.
+**Loss impact:** Questions to determine the impact of a risk. These questions can be difficult (sometimes impossible) to answer. Quantifying the impact is best, but sometimes the conversation alone is enough to understand tolerance. Ranges are also acceptable, especially if they include assumptions that determined those ranges.
 
 - Does this risk violate third-party compliance requirements?
 - Does this risk violate internal corporate policies?
@@ -61,7 +61,7 @@ This section lists conversation provoking questions in three categories: loss im
 
 These basic questions will lead to many more. After exploring a healthy dialogue, it is suggested that the relevant risks be recorded and when possible quantified.
 
-**Risk remediation costs**: Questions to determine the cost of removing or otherwise minimizing the risk. These questions can be fairly direct, especially when represented in a range.
+**Risk remediation costs:** Questions to determine the cost of removing or otherwise minimizing the risk. These questions can be fairly direct, especially when represented in a range.
 
 - Is there a clear solution? What does it cost?
 - Are there options for preventing or minimizing this risk? What is the range of costs for those solutions?
@@ -71,7 +71,7 @@ These basic questions will lead to many more. After exploring a healthy dialogue
 
 These questions over simplify the technical solutions needed to manage or remove risks. However, these questions communicate those solutions in ways the business can quickly integrate into a decision process.
 
-**Probability of loss**: Questions to determine how likely it is that the risk will become a reality. This is the most difficult area to quantify. Instead it is suggested that the Cloud Governance team create categories for communicating probability, based on the supporting data. The following questions can help create categories that are meaningful to the team.
+**Probability of loss:** Questions to determine how likely it is that the risk will become a reality. This is the most difficult area to quantify. Instead it is suggested that the Cloud Governance team create categories for communicating probability, based on the supporting data. The following questions can help create categories that are meaningful to the team.
 
 - Has any research been done regarding the likelihood of this risk being realized?
 - Can the vendor provide references or statistics on the likelihood of an impact?

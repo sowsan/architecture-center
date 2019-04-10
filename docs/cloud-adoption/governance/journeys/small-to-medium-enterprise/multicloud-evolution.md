@@ -38,7 +38,7 @@ The goal is to integrate the acquisition company into existing operations wherev
 
 ## Evolution of tangible risks
 
-**Business acquisition cost**: Acquisition of the new business is slated to be profitable in approximately five years. Because of the slow rate of return, the board wants to control acquisition costs, as much as possible. There is a risk of cost control and technical integration conflicting with one another.
+**Business acquisition cost:** Acquisition of the new business is slated to be profitable in approximately five years. Because of the slow rate of return, the board wants to control acquisition costs, as much as possible. There is a risk of cost control and technical integration conflicting with one another.
 
 This business risk can be expanded into a few technical risks:
 

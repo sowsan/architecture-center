@@ -36,7 +36,7 @@ The goal is to integrate the acquisition company into existing operations wherev
 
 ## Evolution of tangible risks
 
-**Business Acquisition Cost**: Acquisition of the new business is slated to be profitable in approximately five years. Because of the slow rate of return, the board wants to control acquisition costs, as much as possible. There is a risk of cost control and technical integration conflicting with one another.
+**Business acquisition cost:** Acquisition of the new business is slated to be profitable in approximately five years. Because of the slow rate of return, the board wants to control acquisition costs, as much as possible. There is a risk of cost control and technical integration conflicting with one another.
 
 This business risk can be expanded into a few technical risks
 
@@ -60,10 +60,10 @@ This section of the article will evolve the governance MVP design to include new
 2. Consolidate Identity Providers. Depending on the workloads being hosted in the secondary cloud, there are a variety of options to identity provider consolidation. The following are a few examples:
     1. For applications that authenticate using OAuth 2, users in the Active Directory in the secondary cloud could simply be replicated to the existing Azure AD tenant.
     2. On the other extreme, federation between the two on-premises identity providers, would allow users from the new Active Directory domains to be replicated to Azure.
-3. Add assets to Azure Site Recovery
+3. Add assets to Azure Site Recovery.
     1. Azure Site Recovery was built as a hybrid and multicloud tool from the beginning.
     2. Virtual machines in the secondary cloud might be able to be protected by the same Azure Site Recovery processes used to protect on-premises assets.
-4. Add assets to Azure Cost Management
+4. Add assets to Azure Cost Management.
     1. Azure Cost Management was built as a multicloud tool from the beginning.
     2. Virtual machines in the secondary cloud might be compatible with Azure Cost Management for some cloud providers. Additional costs may apply.
 5. Add assets to Azure Monitor

@@ -78,9 +78,9 @@ There are several different states of data with different encryption needs to co
 
 Data in transit is data moving between resources on the internal, between datacenters or external networks, or over the internet.
 
-Encrypting data in transit is usually done by requiring SSL/TLS protocols for traffic. Traffic transiting between your cloud-hosted resources to external network or the public internet should always be encrypted. PaaS resources generally also enforce SSL/TLS encryption to traffic by default. Whether you enforce encryption for traffic between IaaS resources hosted inside your virtual networks is a decision for your Cloud Adoption Team and workload owner and is generally recommended.
+Encrypting data in transit is usually done by requiring SSL/TLS protocols for traffic. Traffic transiting between your cloud-hosted resources to external network or the public internet should always be encrypted. PaaS resources generally also enforce SSL/TLS encryption to traffic by default. Whether you enforce encryption for traffic between IaaS resources hosted inside your virtual networks is a decision for your cloud adoption teams and workload owners and is generally recommended.
 
-**Encrypting data in transit assumptions**. Implementing proper encryption policy for data in transit assumes the following:
+**Assumptions about encrypting data in transit:** Implementing proper encryption policy for data in transit assumes the following:
 
 - All publicly accessible endpoints in your cloud environment will communicate with the public internet using SSL/TLS protocols.
 - When connecting cloud networks with on-premises or other external network over the public internet, use encrypted VPN protocols.
@@ -97,7 +97,7 @@ Encryption for data at rest also encompasses more advanced database encryption t
 
 Your overall policy and compliance requirements, the sensitivity of the data being stored, and the performance requirements of your workloads should determine which assets require encryption.
 
-**Encrypting Data at Rest Assumptions**. Encrypting data at rest assumes the following:
+**Assumptions about encrypting data at rest.** Encrypting data at rest assumes the following:
 
 - You are storing data that is not meant for public consumption.
 - Your workloads can accept the added latency cost of disk encryption.
@@ -106,7 +106,7 @@ Your overall policy and compliance requirements, the sensitivity of the data bei
 
 Encryption for data in use involves securing data in nonpersistent storage, such as RAM or CPU caches. Use of technologies such as full memory encryption, enclave technologies, such as Intel's Secure Guard Extensions (SGX). This also includes cryptographic techniques, such as homomorphic encryption that can be used to create secure, trusted execution environments.
 
-**Encrypting data in use assumptions**. Encrypting data in use assumes the following:
+**Assumptions about encrypting data in use:** Encrypting data in use assumes the following:
 
 - You are required to maintain data ownership separate from the underlying cloud platform at all times, even at the RAM and CPU level.
 
@@ -116,7 +116,7 @@ See the following for more information about encryption and key management in th
 
 - [Azure encryption overview](/azure/security/security-azure-encryption-overview). A detailed description of how Azure uses encryption to secure both data at rest and data in transit.
 - [Azure Key Vault](/azure/key-vault/key-vault-overview). Key Vault is the primary key management system for storing and managing cryptographic keys, secrets, and certificates within Azure.
-- [Azure Data Security and Encryption Best Practices](https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices). A discussion of Azure data security and encryption best practices.
+- [Azure Data Security and Encryption Best Practices](/azure/security/azure-security-data-encryption-best-practices). A discussion of Azure data security and encryption best practices.
 - [Confidential computing in Azure](/solutions/confidential-compute). Azure's confidential computing initiative provides tools and technology to create trusted execution environments or other encryption mechanisms to secure data in use.
 
 ## Next steps

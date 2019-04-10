@@ -31,7 +31,7 @@ The changes to current and future state expose new risks that will require new p
 
 ## Evolution of tangible risks
 
-**Business Interruption**: There is an inherent risk of any new platform causing interruptions to mission-critical business processes. The IT Operations team and the teams executing on various cloud adoptions are relatively inexperienced with cloud operations. This increases the risk of interruption and must be remediated and governed.
+**Business interruption:** There is an inherent risk of any new platform causing interruptions to mission-critical business processes. The IT Operations team and the teams executing on various cloud adoptions are relatively inexperienced with cloud operations. This increases the risk of interruption and must be remediated and governed.
 
 This business risk can be expanded into several technical risks:
 
@@ -75,7 +75,7 @@ This section of the article will evolve the governance MVP design to include new
 
 Following the experience of this fictional example, it is assumed that the Protected Data evolution has already happened. Building on that best practice, the following will add operational monitoring requirements, readying a subscription for mission-critical applications.
 
-**Corporate IT Subscription**: Add the following to the Corporate IT subscription, which acts as a hub.
+**Corporate IT subscription:** Add the following to the Corporate IT subscription, which acts as a hub.
 
 1. As an external dependency, the Cloud Operations team will need to define operational monitoring tooling, Business Continuity/Disaster Recovery (BCDR) tooling and automated remediation tooling. The Cloud Governance team can then support necessary discovery processes.
     1. In this use case, the Cloud Operations team chose Azure Monitor as the primary tool for monitoring mission-critical applications.
@@ -86,7 +86,7 @@ Following the experience of this fictional example, it is assumed that the Prote
 3. Azure Monitor implementation
     1. Once a mission-critical subscription is identified, a log analytics workspace can be created using PowerShell. This is a predeployment process.
 
-**Individual cloud adoption subscription**: The following will ensure that each subscription is discoverable by the monitoring solution and ready to be included in BCDR practices.
+**Individual cloud adoption subscription:** The following will ensure that each subscription is discoverable by the monitoring solution and ready to be included in BCDR practices.
 
 1. Azure Policy for mission-critical nodes
     1. Audit and enforce use of standard roles only.

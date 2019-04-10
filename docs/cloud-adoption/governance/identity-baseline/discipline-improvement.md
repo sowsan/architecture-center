@@ -88,7 +88,7 @@ Migration is an incremental process that focuses on the movement, testing, and a
 **Potential activities:**
 
 * Validate that the best practices defined during the Build / Predeployment phases are properly executed.
-* Validate and/or refine your [Hybrid Identity Strategy](../../decision-guides/identity/index.md).
+* Validate and refine your [Hybrid Identity Strategy](../../decision-guides/identity/index.md).
 * Ensure that each application or workload continues to align with the identity strategy before release.
 * Validate that single sign-on (SSO) and seamless SSO is working as expected for your applications.
 * Reduce or eliminate the number of alternative identity stores, when possible.

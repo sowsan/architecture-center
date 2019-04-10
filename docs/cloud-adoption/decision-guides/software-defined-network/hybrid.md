@@ -29,7 +29,7 @@ Deploying a hybrid virtual network assumes the following:
 - Connecting your on-premises networks to cloud resources over VPN or dedicated WAN is not prevented by corporate policy, data sovereignty requirements, or other regulatory compliance issues.
 - Your workloads either do not require multiple subscriptions to bypass subscription resource limits, OR your workloads involve multiple subscriptions but do not require central management of connectivity or shared services used by resources spread across multiple subscriptions.
 
-Your Cloud Adoption team should consider the following issues when looking at implementing a hybrid virtual networking architecture:
+Your cloud adoption teams should consider the following issues when looking at implementing a hybrid virtual networking architecture:
 
 - Connecting on-premises networks with cloud networks increases the complexity of your security requirements. Both networks need to be secured against external vulnerabilities and unauthorized access from both sides of the hybrid environment.
 - Scaling the number and size of workloads within a hybrid cloud environment can add significant complexity to routing and traffic management.

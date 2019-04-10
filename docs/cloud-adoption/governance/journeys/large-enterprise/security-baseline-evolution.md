@@ -46,7 +46,7 @@ Since then, some things have changed that will affect governance:
 
 ## Evolution of tangible risks
 
-**Data Breach**: There is an inherent increase in liabilities related to data breaches when adopting any new data platform. Technicians adopting cloud technologies have increased responsibilities to implement solutions which can decrease this risk. A robust security and governance strategy must be implemented to ensure those technicians fulfill those responsibilities.
+**Data breach:** There is an inherent increase in liabilities related to data breaches when adopting any new data platform. Technicians adopting cloud technologies have increased responsibilities to implement solutions which can decrease this risk. A robust security and governance strategy must be implemented to ensure those technicians fulfill those responsibilities.
 
 This business risk can be expanded into a few technical risks:
 
@@ -95,7 +95,7 @@ This section of the article will evolve the governance MVP design to include new
 
 The new best practices fall into two categories: Corporate IT (Hub) and Cloud Adoption (Spoke).
 
-**Establishing a corporate IT hub/spoke subscription to centralize the Security Baseline**: In this best practice, the existing governance capacity is wrapped by a [Hub Spoke Topology with Shared Services][shared-services], with a few key additions from the Cloud Governance team.
+**Establishing a corporate IT hub/spoke subscription to centralize the Security Baseline:** In this best practice, the existing governance capacity is wrapped by a [Hub Spoke Topology with Shared Services][shared-services], with a few key additions from the Cloud Governance team.
 
 1. Azure DevOps repository. Create a repository in Azure DevOps to store and version all relevant Azure Resource Manager templates and scripted configurations
 2. Hub-Spoke template.
@@ -119,7 +119,7 @@ The new best practices fall into two categories: Corporate IT (Hub) and Cloud Ad
     2. Deploy Azure Automation State Configuration to any instances of the Corporate IT subscription. Azure Automation can be used to apply DSC to VMs deployed in supported subscriptions within the management group.
     3. The current roadmap plans to enable custom guest configuration policies. When that feature is released, the use of Azure Automation in this best practice will no longer be required.
 
-**Applying additional governance to a Cloud Adoption Subscription (Spoke)**: Building on the `Corporate IT Subscription`, minor changes to the governance MVP applied to each subscription dedicated to the support of application archetypes can produce rapid evolution.
+**Applying additional governance to a Cloud Adoption Subscription (Spoke):** Building on the `Corporate IT Subscription`, minor changes to the governance MVP applied to each subscription dedicated to the support of application archetypes can produce rapid evolution.
 
 In prior evolutions of the best practice, NSGs were defined which blocked public traffic and whitelisted internal traffic. Additionally, the Azure blueprint temporarily created DMZ and Active Directory capabilities. In this evolution, we will tweak those assets a bit, creating a new version of the Azure blueprint.
 

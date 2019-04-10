@@ -29,9 +29,9 @@ Choosing the correct authentication method is the first concern for organization
 
 When you choose this method, Azure AD handles users' sign-in process. Coupled with seamless single sign-on (SSO), users can sign in to cloud apps without having to reenter their credentials. With cloud authentication, you can choose from two options:
 
-**Azure AD password hash synchronization**: The simplest way to enable authentication for on-premises directory objects in Azure AD. This method can also be used with any method as a back-up failover authentication method in case your on-premises server goes down.
+**Azure AD password hash synchronization:** The simplest way to enable authentication for on-premises directory objects in Azure AD. This method can also be used with any method as a back-up failover authentication method in case your on-premises server goes down.
 
-**Azure AD Pass-through Authentication**: Provides a persistent password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers.
+**Azure AD passthrough authentication:** Provides a persistent password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers.
 
 > [!NOTE]
 > Companies with a security requirement to immediately enforce on-premises user account states, password policies, and sign-in hours should consider the pass-through Authentication method.
@@ -50,7 +50,7 @@ The following table lists the native tools that can help mature the policies and
 |:-----|:-----|:-----|:-----|
 |Where does authentication happen?|In the cloud|In the cloud after a secure password verification exchange with the on-premises authentication agent|On-premises|
 |What are the on-premises server requirements beyond the provisioning system: Azure AD Connect?|None|One server for each additional authentication agent|Two or more AD FS servers<br><br>Two or more WAP servers in the perimeter/DMZ network|
-|What are the requirements for on-premises Internet and networking beyond the provisioning system?|None|[Outbound Internet access](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) from the servers running authentication agents|[Inbound Internet access](/windows-server/identity/ad-fs/overview/ad-fs-requirements) to WAP servers in the perimeter<br><br>Inbound network access to AD FS servers from WAP servers in the perimeter<br><br>Network load balancing|
+|What are the requirements for on-premises internet and networking beyond the provisioning system?|None|[Outbound internet access](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) from the servers running authentication agents|[Inbound internet access](/windows-server/identity/ad-fs/overview/ad-fs-requirements) to WAP servers in the perimeter<br><br>Inbound network access to AD FS servers from WAP servers in the perimeter<br><br>Network load balancing|
 |Is there an SSL certificate requirement?|No|No|Yes|
 |Is there a health monitoring solution?|Not required|Agent status provided by [Azure Active Directory admin center](/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication)|[Azure AD Connect Health](/azure/active-directory/hybrid/how-to-connect-health-adfs)|
 |Do users get single sign-on to cloud resources from domain-joined devices within the company network?|Yes with [Seamless SSO](/azure/active-directory/hybrid/how-to-connect-sso)|Yes with [Seamless SSO](/azure/active-directory/hybrid/how-to-connect-sso)|Yes|
