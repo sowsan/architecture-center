@@ -19,13 +19,13 @@ Jump to: [Determine Identity Integration Requirements](#determine-identity-integ
 
 There are several ways to manage identity in a cloud environment, which vary in cost and complexity. A key factor in structuring your cloud-based identity services is the level of integration required with your existing on-premises identity infrastructure.
 
-In Azure, Azure Active Directory (Azure AD) provides a base level of access control and identity management for cloud resources. However, if your organization's Active Directory (AD) infrastructure has a complex forest structure or customized organizational units (OUs), your cloud-based workloads may require directory synchronization with Azure AD for a consistent set of identities, groups, and roles between your on-premises and cloud environments. Additionally, support for applications dependent on legacy authentication mechanisms may require the deployment of Active Directory Domain Services (AD DS) in the cloud.
+In Azure, Azure Active Directory (Azure AD) provides a base level of access control and identity management for cloud resources. However, if your organization's on-premises Active Directory infrastructure has a complex forest structure or customized organizational units (OUs), your cloud-based workloads may require directory synchronization with Azure AD for a consistent set of identities, groups, and roles between your on-premises and cloud environments. Additionally, support for applications dependent on legacy authentication mechanisms may require the deployment of Active Directory Domain Services (AD DS) in the cloud.
 
 Cloud-based identity management is an iterative process. You may start with a cloud native solution with a small set of users and corresponding roles for an initial deployment. As your migration matures, you may need to integrate your identity solution using directory synchronization or add domains services as part of your cloud deployments. Revisit your identity strategy in every iteration of your migration process.
 
 ## Determine identity integration requirements
 
-| Question | Cloud baseline | Directory synchronization | Cloud-hosted Domain Services | AD Federation Services |
+| Question | Cloud baseline | Directory synchronization | Cloud-hosted domain services | Active Directory Federation Services |
 |------|------|------|------|------|
 | Do you currently lack an on-premises directory service? | Yes | No | No | No |
 | Do your workloads need to use a common set of users and groups between the cloud and on-premises environment? | No | Yes | No | No |
@@ -104,4 +104,3 @@ Identity is just one of the core infrastructure components requiring architectur
 
 > [!div class="nextstepaction"]
 > [Architectural decision guides](../index.md)
-

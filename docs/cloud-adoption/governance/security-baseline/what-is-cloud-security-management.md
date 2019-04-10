@@ -7,14 +7,14 @@ ms.custom: governance
 ms.date: 02/11/2019
 description: What is the Cloud Security Baseline?
 author: BrianBlanchard
-ms.date: 10/10/2018
+ms.date: 4/4/2019
 ---
 
 <!-- markdownlint-disable MD026 -->
 
 # What is the Cloud Security Baseline?
 
-This is an introductory article on the general topic of Cloud Security Baseline which builds on the [Five Disciplines of Cloud Governance](../governance-disciplines.md) to establish a governance framework. More detailed information about Cloud Security is available from [Azure's Trusted Cloud](https://azure.microsoft.com/overview/trusted-cloud/). Approaches to improving your organizations security posture can be found in the [Cloud Security Service Catalog](https://www.microsoft.com/security/information-protection)
+This is an introductory article on the general topic of Cloud Security Baseline which builds on the [Five Disciplines of Cloud Governance](../governance-disciplines.md) to establish a governance framework. More detailed information about Cloud Security is available from [Azure's Trusted Cloud](https://azure.microsoft.com/overview/trusted-cloud). Approaches to improving your organizations security posture can be found in the [Cloud Security Service Catalog](https://www.microsoft.com/security/information-protection)
 
 > [!NOTE]
 > This article is not expected to provide enough context to allow the reader to implement a security strategy. It is for general awareness only.
@@ -47,4 +47,4 @@ The two greatest risks in any datacenter can be grouped into two sources: Aging 
 * Monitoring and Auditing: When designing governance processes and tooling, ensure that monitoring and auditing solutions include security risks or violations.
 
 > [!NOTE]
-> Technical Debt disclosure: This topic lacks actionable next steps. Addition articles will expand on this topic over time. More detailed information about Cloud Security is available from [Azure's Trusted Cloud](https://azure.microsoft.com/overview/trusted-cloud/). Approaches to improving your organizations security posture can be found in the [Cloud Security Service Catalog](https://www.microsoft.com/security/information-protection)
+> Technical Debt disclosure: This topic lacks actionable next steps. Addition articles will expand on this topic over time. More detailed information about Cloud Security is available from [Azure's Trusted Cloud](https://azure.microsoft.com/overview/trusted-cloud). Approaches to improving your organizations security posture can be found in the [Cloud Security Service Catalog](https://www.microsoft.com/security/information-protection)

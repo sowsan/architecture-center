@@ -158,7 +158,7 @@ Although smaller teams may benefit from the models and recommendations the Azure
 - Your industry is dependent on a complex platform which requires deep domain expertise (for example, finance, oil and gas, or manufacturing).
 - Your existing IT governance policies require tighter parity with existing features, even during early stage adoption.
 
-For more information, visit the [Azure Virtual Datacenter](/azure/architecture/vdc/) section of the CAF site.
+For more information, visit the [Azure Virtual Datacenter](/azure/architecture/vdc) section of the CAF site.
 
 ## Next steps
 
