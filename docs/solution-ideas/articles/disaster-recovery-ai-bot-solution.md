@@ -22,20 +22,22 @@ The picture below shows some of the core components you should consider when bui
 ![Enterprise Grade Conversational Bot](../media/disaster-recovery-ai-bot.svg)
 
 ## Components
-* DNS traffic is routed via [Traffic Manager](https://azure.microsoft.com/services/traffic-manager/) which can easily move traffic from one site to another based on policies defined by your organization.
-* [Azure Site Recovery](https://azure.microsoft.com/services/site-recovery/) orchestrates the replication of machines and manages the configuration of the failback procedures.
-* [Blob storage](https://azure.microsoft.com/services/storage/blobs/) stores the replica images of all machines that are protected by Site Recovery.
-* [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) is the replica of the on-premises [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) services allowing cloud applications to be authenticated and authorized by your company.
-* [VPN Gateway](https://azure.microsoft.com/services/vpn-gateway/): The VPN gateway maintains the communication between the on-premises network and the cloud network securely and privately.
-* [Virtual Network](https://azure.microsoft.com/services/virtual-network/): The virtual network is where the failover site will be created when a disaster occurs.
+Above architecture blueprint shows how we can deploy a chatbot solution in Active/Passive mode for disaster recovery. Reference architecture includes only the core components of a typical chatbot solution in Azure.
+
+* Non-regional services: Azure AD, Azure Bot Registration, Traffic Manager or Azure Frontdoor, Azure DevOps – Repos and Pipelines are nonregional services and you don’t need to do anything as these services are going to be available in the specific geographies regardless of any rare Azure region outage.
+
+* Regional Services with automatic failover: Though you have to provision Azure KeyVault & LUIS to a specific Azure region, these services provide automatic failover to different Azure region and you don’t need to handle it. You can find more details about the high availability of these services in the following links Azure Key Vault availability and redundancy, LUIS regions and endpoints
+
+* Regional Services without automatic failover: Now, let’s look at the services that need your attention. Details below cover all such services and recommendations for high availability.
+
+* Keep all of your deployment and source code artifacts in a source code repository and deploy two parallel of them in Azure paired regions. You can automate all of the next steps and can keep them part of your deployment artifacts. When you deploy these services, configure the bot API environment variables matching specific to the services in each region.
+* Keep the primary and secondary Azure search indexes in sync. Use the GitHub sample here to see how to backup-restore Azure indexes.
+Back up the Application Insights using continuous export. Note that as of today Application Insights is not giving an option to import the exported telemetry to another Application Insights. You can export into a storage account and use it for further analysis.
+* Setup high availability for AzureCosmos Db. You can find the options and recommendations here.
+* Setup high availability for the Azure Storage Account. You can find the details for the same here.
+* Deploy the bot API and QnA maker into an app service plan in both regions.
+* Once the primary and secondary stacks have been set up, use traffic manager to configure the two endpoints and set up a routing method for both QnA Maker & bot API
+* You would need to create an SSL certificate for your traffic manager endpoint. Bind the SSL certificate in your App services.
+* Finally, use the traffic manager/Azure Frontdoor endpoint of QnA Maker in your Bot and use the traffic manager endpoint of bot API in the Azure Bot Registration bot endpoint.
 
 ## Next Steps
-
-* [Configure Failover routing method](/azure/traffic-manager/traffic-manager-routing-methods#priority-traffic-routing-method)
-* [How does Azure Site Recovery work?](/azure/site-recovery/site-recovery-overview)
-* [Introduction to Microsoft Azure Storage](/azure/storage/common/storage-introduction)
-* [Integrating your on-premises identities with Azure Active Directory](/azure/active-directory/hybrid/whatis-azure-ad-connect)
-* [Create a VNet with a Site-to-Site connection using the Azure portal](/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal)
-* [Designing your network infrastructure for disaster recovery](https://gallery.technet.microsoft.com/Designing-Your-Network-a849fa98)
-
-
