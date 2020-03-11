@@ -31,9 +31,9 @@ Above architecture blueprint shows how we can deploy a chatbot solution in Activ
 * Regional Services without automatic failover: Now, let’s look at the services that need your attention. Details below cover all such services and recommendations for high availability.
 
 1. Keep all of your deployment and source code artifacts in a source code repository and deploy two parallel of them in Azure paired regions. You can automate all of the next steps and can keep them part of your deployment artifacts. When you deploy these services, configure the bot API environment variables matching specific to the services in each region.
-2. Keep the primary and secondary Azure search indexes in sync. Use the GitHub sample here to see how to backup-restore Azure indexes.
+1. Keep the primary and secondary Azure search indexes in sync. Use the GitHub sample here to see how to backup-restore Azure indexes.
 Back up the Application Insights using continuous export. Note that as of today Application Insights is not giving an option to import the exported telemetry to another Application Insights. You can export into a storage account and use it for further analysis.
-3. Setup high availability for AzureCosmos Db. You can find the options and recommendations here.
+1. Setup high availability for AzureCosmos Db. You can find the options and recommendations here.
 4. Setup high availability for the Azure Storage Account. You can find the details for the same here.
 5. Deploy the bot API and QnA maker into an app service plan in both regions.
 6. Once the primary and secondary stacks have been set up, use traffic manager to configure the two endpoints and set up a routing method for both QnA Maker & bot API
