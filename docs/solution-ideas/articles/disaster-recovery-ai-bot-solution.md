@@ -19,7 +19,7 @@ This solution is built on the Azure managed services: [Traffic Manager](https://
 ## Architecture
 The picture below shows some of the core components you should consider when building an enterprise-grade chatbot solution. You can find more details about each of these components under the context of chatbot in this documentation.
 
-![Enterprise Grade Conversational Bot](../media/Bot_DR.svg)
+![Enterprise Grade Conversational Bot](../media/disaster-recovery-ai-bot.svg)
 
 ## Components
 * DNS traffic is routed via [Traffic Manager](https://azure.microsoft.com/services/traffic-manager/) which can easily move traffic from one site to another based on policies defined by your organization.
