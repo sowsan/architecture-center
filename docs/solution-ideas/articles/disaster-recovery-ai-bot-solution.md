@@ -34,10 +34,10 @@ Above architecture blueprint shows how we can deploy a chatbot solution in Activ
 1. Keep the primary and secondary Azure search indexes in sync. Use the GitHub sample here to see how to backup-restore Azure indexes.
 Back up the Application Insights using continuous export. Note that as of today Application Insights is not giving an option to import the exported telemetry to another Application Insights. You can export into a storage account and use it for further analysis.
 1. Setup high availability for AzureCosmos Db. You can find the options and recommendations here.
-4. Setup high availability for the Azure Storage Account. You can find the details for the same here.
-5. Deploy the bot API and QnA maker into an app service plan in both regions.
-6. Once the primary and secondary stacks have been set up, use traffic manager to configure the two endpoints and set up a routing method for both QnA Maker & bot API
-7. You would need to create an SSL certificate for your traffic manager endpoint. Bind the SSL certificate in your App services.
-8. Finally, use the traffic manager/Azure Frontdoor endpoint of QnA Maker in your Bot and use the traffic manager endpoint of bot API in the Azure Bot Registration bot endpoint.
+1. Setup high availability for the Azure Storage Account. You can find the details for the same here.
+1. Deploy the bot API and QnA maker into an app service plan in both regions.
+1. Once the primary and secondary stacks have been set up, use traffic manager to configure the two endpoints and set up a routing method for both QnA Maker & bot API
+1. You would need to create an SSL certificate for your traffic manager endpoint. Bind the SSL certificate in your App services.
+1. Finally, use the traffic manager/Azure Frontdoor endpoint of QnA Maker in your Bot and use the traffic manager endpoint of bot API in the Azure Bot Registration bot endpoint.
 
 ## Next Steps
