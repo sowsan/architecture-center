@@ -38,3 +38,14 @@ Above architecture blueprint shows how we can deploy a chatbot solution in Activ
 1. Finally, use the traffic manager/Azure Frontdoor endpoint of QnA Maker in your Bot and use the traffic manager endpoint of bot API in the Azure Bot Registration bot endpoint.
 
 ## Next Steps
+* [Enterprise-grade conversational bot](https://docs.microsoft.com/azure/architecture/reference-architectures/ai/conversational-bot)
+* [Overview of the resiliency pillar](https://docs.microsoft.com/azure/architecture/framework/resiliency/overview)
+* [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=all)
+* [Azure Key Vault availability and redundancy](https://docs.microsoft.com/azure/key-vault/key-vault-disaster-recovery-guidance)
+* [Business continuity and disaster recovery (BCDR): Azure Paired Regions](https://docs.microsoft.com/azure/best-practices-availability-paired-regions)
+* [Authoring and publishing regions and the associated keys](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions)
+* [High availability with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/high-availability)
+* [Disaster recovery and account failover](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance)
+* [Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/)
+* [Azure Front Door](https://azure.microsoft.com/services/frontdoor/)
+
