@@ -10,14 +10,10 @@ ms.subservice: solution-idea
 ---
 # Enterprise-grade conversational bot disaster recovery
 
-[!INCLUDE [header_file](../header.md)]
-
-A large enterprise architecture for SharePoint, Dynamics CRM, and Linux web servers hosted on an on-premises datacenter with failover to Azure infrastructure.
-
-This solution is built on the Azure managed services: [Traffic Manager](https://azure.microsoft.com/services/traffic-manager/), [Azure Site Recovery](https://azure.microsoft.com/services/site-recovery/), [Azure Active Directory](https://azure.microsoft.com/services/active-directory/), [VPN Gateway](https://azure.microsoft.com/services/vpn-gateway/) and [Virtual Network](https://azure.microsoft.com/services/virtual-network/). These services run in a high-availability environment, patched and supported, allowing you to focus on your solution instead of the environment they run in.
+The primary objective of this documentation is, share the recommendation and a sample reference for building a highly available chat bot solution in Azure. When you build an enterprise-grade conversational bot (chatbot)  it is key to define the SLAs which covers the Recovery Point Objective (RPO) and Recovery Time Objective (RTO) for the solution. You can find more details about each of these components of a enterprise-grade conversation bot [this](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/conversational-bot) documentation.
 
 ## Architecture
-The picture below shows some of the core components you should consider when building an enterprise-grade chatbot solution. You can find more details about each of these components under the context of chatbot in this documentation.
+The picture below shows some of the core components you should consider when building an enterprise-grade chatbot solution. You can find more details about each of these components under the context of chatbot in [this](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/conversational-bot) documentation.
 
 ![Enterprise Grade Conversational Bot](../media/disaster-recovery-ai-bot.svg)
 
