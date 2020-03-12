@@ -2,9 +2,9 @@
 title: Enterprise-grade conversational bot Disaster Recovery
 titleSuffix: Azure Solution Ideas
 author: sowmyans
-ms.date: 03/11/2020
+ms.date: 03/12/2020
 description: A sample disaster recovery solution for an Azure Bot based solution.
-ms.custom: Enterprise-grade conversational bot, bcdr, 'https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/conversational-bot'
+ms.custom: Enterprise-grade conversational bot, bcdr, 'https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/disaster-recovery-ai-bot-solution'
 ms.service: architecture-center
 ms.subservice: solution-idea
 ---
